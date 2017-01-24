@@ -1,0 +1,18 @@
+[Inputs]
+E
+A
+B
+C
+[Outputs]
+d0
+d1
+d2
+d3
+d4
+d5
+d6
+d7
+[BiDir]
+[ATTRIBUTES]
+VeriModel decoder_st
+

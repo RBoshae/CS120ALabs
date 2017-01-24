@@ -1,0 +1,71 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 14.7
+//  \   \         Application : sch2hdl
+//  /   /         Filename : computer_data_bus.vf
+// /___/   /\     Timestamp : 01/23/2017 16:41:06
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: sch2hdl -intstyle ise -family spartan3e -verilog C:/Users/KongK/Documents/GitHub/CS120ALabs/Lab2/ee120a_L2P1_sprinkler_valve_controller/computer_data_bus.vf -w C:/Users/KongK/Documents/GitHub/CS120ALabs/Lab2/ee120a_L2P1_sprinkler_valve_controller/computer_data_bus.sch
+//Design Name: computer_data_bus
+//Device: spartan3e
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module computer_data_bus(i0, 
+                         i1, 
+                         i2, 
+                         i3, 
+                         s0, 
+                         s1, 
+                         d);
+
+    input i0;
+    input i1;
+    input i2;
+    input i3;
+    input s0;
+    input s1;
+   output d;
+   
+   wire XLXN_8;
+   wire XLXN_9;
+   wire XLXN_10;
+   wire XLXN_11;
+   wire XLXN_24;
+   wire XLXN_25;
+   
+   INV  XLXI_5 (.I(s1), 
+               .O(XLXN_24));
+   INV  XLXI_6 (.I(s0), 
+               .O(XLXN_25));
+   OR4  XLXI_7 (.I0(XLXN_11), 
+               .I1(XLXN_10), 
+               .I2(XLXN_9), 
+               .I3(XLXN_8), 
+               .O(d));
+   AND3  XLXI_12 (.I0(XLXN_25), 
+                 .I1(XLXN_24), 
+                 .I2(i0), 
+                 .O(XLXN_8));
+   AND3  XLXI_13 (.I0(s0), 
+                 .I1(XLXN_24), 
+                 .I2(i1), 
+                 .O(XLXN_9));
+   AND3  XLXI_14 (.I0(XLXN_25), 
+                 .I1(s1), 
+                 .I2(i2), 
+                 .O(XLXN_10));
+   AND3  XLXI_15 (.I0(s0), 
+                 .I1(s1), 
+                 .I2(i3), 
+                 .O(XLXN_11));
+endmodule

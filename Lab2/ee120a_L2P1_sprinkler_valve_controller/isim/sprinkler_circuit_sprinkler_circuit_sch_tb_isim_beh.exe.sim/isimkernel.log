@@ -1,0 +1,10 @@
+Command line:
+   sprinkler_circuit_sprinkler_circuit_sch_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  50357
+
+Mon Jan 23 15:12:49 2017
+
+
+ Elaboration Time: 0.078125 sec

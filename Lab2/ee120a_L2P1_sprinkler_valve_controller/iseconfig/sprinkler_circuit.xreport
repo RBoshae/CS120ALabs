@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2017-01-23T13:59:23</DateModified>
+  <DateModified>2017-01-23T15:46:49</DateModified>
   <ModuleName>sprinkler_circuit</ModuleName>
-  <SummaryTimeStamp>Unknown</SummaryTimeStamp>
+  <SummaryTimeStamp>2017-01-23T14:49:32</SummaryTimeStamp>
   <SavedFilePath>C:/Users/KongK/Documents/GitHub/CS120ALabs/Lab2/ee120a_L2P1_sprinkler_valve_controller/iseconfig/sprinkler_circuit.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>C:/Users/KongK/Documents/GitHub/CS120ALabs/Lab2/ee120a_L2P1_sprinkler_valve_controller</ImplementationReportsDirectory>
+  <ImplementationReportsDirectory>C:/Users/KongK/Documents/GitHub/CS120ALabs/Lab2/ee120a_L2P1_sprinkler_valve_controller\</ImplementationReportsDirectory>
   <DateInitialized>2017-01-23T13:39:51</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>
