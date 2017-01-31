@@ -1,5 +1,5 @@
 ISim log file
-Running: C:\Users\KongK\Documents\GitHub\CS120ALabs\Lab2\ee120a_L2P1_sprinkler_valve_controller\computer_data_bus_computer_data_bus_sch_tb_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb C:/Users/KongK/Documents/GitHub/CS120ALabs/Lab2/ee120a_L2P1_sprinkler_valve_controller/computer_data_bus_computer_data_bus_sch_tb_isim_beh.wdb 
+Running: C:\Users\KongK\Documents\GitHub\CS120ALabs\Lab2\ee120a_L2P1_sprinkler_valve_controller\sprinkler_circuit_sprinkler_circuit_sch_tb_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb C:/Users/KongK/Documents/GitHub/CS120ALabs/Lab2/ee120a_L2P1_sprinkler_valve_controller/sprinkler_circuit_sprinkler_circuit_sch_tb_isim_beh.wdb 
 ISim P.20131013 (signature 0x7708f090)
 WARNING: A WEBPACK license was found.
 WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
@@ -15,3 +15,24 @@ TC11
 TC12
 TC13
 TC14
+TC15
+TC16
+TC17
+TC18
+TC11
+Result is wrong
+TC12
+Result is wrong
+# run 0.60us
+TC13
+Result is wrong
+TC14
+Result is wrong
+TC15
+Result is wrong
+TC16
+Result is wrong
+TC17
+Result is wrong
+TC18
+Result is wrong
