@@ -38,7 +38,9 @@
     <file xil_pn:fileType="FILE_XST" xil_pn:name="decoder_st.xst"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="decoder_st_isim_beh.exe"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="decoder_st_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="decoder_tb_beh.prj"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="decoder_tb_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="decoder_tb_isim_beh.wdb"/>
     <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
     <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
@@ -79,9 +81,7 @@
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_EXCEL_REPORT" xil_pn:name="sprinkler_circuit_pad.csv" xil_pn:subbranch="Par"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_TXT_REPORT" xil_pn:name="sprinkler_circuit_pad.txt" xil_pn:subbranch="Par"/>
     <file xil_pn:fileType="FILE_XRPT" xil_pn:name="sprinkler_circuit_par.xrpt"/>
-    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="sprinkler_circuit_sprinkler_circuit_sch_tb_beh.prj"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="sprinkler_circuit_sprinkler_circuit_sch_tb_isim_beh.exe"/>
-    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="sprinkler_circuit_sprinkler_circuit_sch_tb_isim_beh.wdb"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="sprinkler_circuit_sprinkler_circuit_sch_tb_stx_beh.prj"/>
     <file xil_pn:fileType="FILE_HTML" xil_pn:name="sprinkler_circuit_summary.html"/>
     <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="sprinkler_circuit_summary.xml"/>
@@ -98,7 +98,7 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1485820247" xil_pn:in_ck="5059881109399699777" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1485820247">
+    <transform xil_pn:end_ts="1485826795" xil_pn:in_ck="5059881109399699777" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1485826795">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="computer_data_bus_tb.v"/>
@@ -108,11 +108,11 @@
       <outfile xil_pn:name="decoder_tb.v"/>
       <outfile xil_pn:name="sprinkler_circuit_tb.v"/>
     </transform>
-    <transform xil_pn:end_ts="1485820247" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="1242558165216003712" xil_pn:start_ts="1485820247">
+    <transform xil_pn:end_ts="1485826752" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-4062284441424725566" xil_pn:start_ts="1485826752">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1485820250" xil_pn:in_ck="-1216545888324406219" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="5803322599215500994" xil_pn:start_ts="1485820247">
+    <transform xil_pn:end_ts="1485826755" xil_pn:in_ck="-1216545888324406219" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="-3192158605007905148" xil_pn:start_ts="1485826752">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="computer_data_bus.vf"/>
@@ -122,7 +122,7 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1485820250" xil_pn:in_ck="-8952108859827027630" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1485820250">
+    <transform xil_pn:end_ts="1485826795" xil_pn:in_ck="-8952108859827027630" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1485826795">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="computer_data_bus.vf"/>
@@ -134,26 +134,22 @@
       <outfile xil_pn:name="sprinkler_circuit.vf"/>
       <outfile xil_pn:name="sprinkler_circuit_tb.v"/>
     </transform>
-    <transform xil_pn:end_ts="1485820256" xil_pn:in_ck="-8952108859827027630" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="3396456856410755425" xil_pn:start_ts="1485820250">
+    <transform xil_pn:end_ts="1485826800" xil_pn:in_ck="-8952108859827027630" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="7925043659790830821" xil_pn:start_ts="1485826795">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForOutputs"/>
-      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="decoder_tb_beh.prj"/>
+      <outfile xil_pn:name="decoder_tb_isim_beh.exe"/>
       <outfile xil_pn:name="fuse.log"/>
       <outfile xil_pn:name="isim"/>
       <outfile xil_pn:name="isim.log"/>
-      <outfile xil_pn:name="sprinkler_circuit_sprinkler_circuit_sch_tb_beh.prj"/>
-      <outfile xil_pn:name="sprinkler_circuit_sprinkler_circuit_sch_tb_isim_beh.exe"/>
       <outfile xil_pn:name="xilinxsim.ini"/>
     </transform>
-    <transform xil_pn:end_ts="1485821542" xil_pn:in_ck="3548519321708376634" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="3227299304941579460" xil_pn:start_ts="1485821542">
+    <transform xil_pn:end_ts="1485826801" xil_pn:in_ck="3548519321708376634" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-4174146532205562488" xil_pn:start_ts="1485826800">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForOutputs"/>
-      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="decoder_tb_isim_beh.wdb"/>
       <outfile xil_pn:name="isim.cmd"/>
       <outfile xil_pn:name="isim.log"/>
-      <outfile xil_pn:name="sprinkler_circuit_sprinkler_circuit_sch_tb_isim_beh.wdb"/>
     </transform>
     <transform xil_pn:end_ts="1485211756" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1485211756">
       <status xil_pn:value="SuccessfullyRun"/>

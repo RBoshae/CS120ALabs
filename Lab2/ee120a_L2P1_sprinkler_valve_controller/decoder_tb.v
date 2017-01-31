@@ -115,6 +115,64 @@ module decoder_tb;
 	#100; // Wait for 100 ns
 	$display("TC18");
 	if(d7 != 1'b1) $display("Result is wrong");
+	
+	E = 0;
+
+	A = 0;
+	B = 0;
+	C = 0;
+	#100; // Wait for 100 ns
+	$display("TC11");
+	if(d0 != 1'b1) $display("Result is wrong");
+	
+	A = 0;
+	B = 0;
+	C = 1;
+	#100; // Wait for 100 ns
+	$display("TC12");
+	if(d1 != 1'b1) $display("Result is wrong");
+	
+	A = 0;
+	B = 1;
+	C = 0;
+	#100; // Wait for 100 ns
+	$display("TC13");
+	if(d2 != 1'b1) $display("Result is wrong");
+	
+	A = 0;
+	B = 1;
+	C = 1;
+	#100; // Wait for 100 ns
+	$display("TC14");
+	if(d3 != 1'b1) $display("Result is wrong");
+	
+	A = 1;
+	B = 0;
+	C = 0;
+	#100; // Wait for 100 ns
+	$display("TC15");
+	if(d4 != 1'b1) $display("Result is wrong");
+	
+	A = 1;
+	B = 0;
+	C = 1;
+	#100; // Wait for 100 ns
+	$display("TC16");
+	if(d5 != 1'b1) $display("Result is wrong");
+	
+	A = 1;
+	B = 1;
+	C = 0;
+	#100; // Wait for 100 ns
+	$display("TC17");
+	if(d6 != 1'b1) $display("Result is wrong");
+	
+	A = 1;
+	B = 1;
+	C = 1;
+	#100; // Wait for 100 ns
+	$display("TC18");
+	if(d7 != 1'b1) $display("Result is wrong");
 
 	end
       
