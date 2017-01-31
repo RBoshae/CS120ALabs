@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="ee120a_L2P1_sprinkler_valve_controller.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name=".lso"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="_ngo"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/bitgen.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/map.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/par.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/trce.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="computer_data_bus.bgn" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BIT" xil_pn:name="computer_data_bus.bit" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="computer_data_bus.bld"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="computer_data_bus.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_DRC" xil_pn:name="computer_data_bus.drc" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:fileType="FILE_JHD" xil_pn:name="computer_data_bus.jhd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="computer_data_bus.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="computer_data_bus.ncd" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="computer_data_bus.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="computer_data_bus.ngd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="computer_data_bus.ngr"/>
+    <file xil_pn:fileType="FILE_PAD_MISC" xil_pn:name="computer_data_bus.pad"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAR_REPORT" xil_pn:name="computer_data_bus.par" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PCF" xil_pn:name="computer_data_bus.pcf" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="computer_data_bus.prj"/>
+    <file xil_pn:fileType="FILE_TRCE_MISC" xil_pn:name="computer_data_bus.ptwx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="computer_data_bus.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="computer_data_bus.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_TXT_REPORT" xil_pn:name="computer_data_bus.twr" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_XML_REPORT" xil_pn:name="computer_data_bus.twx" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_UNROUTES" xil_pn:name="computer_data_bus.unroutes" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="computer_data_bus.ut" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:fileType="FILE_VERILOG" xil_pn:name="computer_data_bus.vf">
+      <branch xil_pn:name="Implementation"/>
+      <branch xil_pn:name="BehavioralSim"/>
+    </file>
+    <file xil_pn:fileType="FILE_XPI" xil_pn:name="computer_data_bus.xpi"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="computer_data_bus.xst"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="computer_data_bus_computer_data_bus_sch_tb_isim_beh.exe"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="computer_data_bus_computer_data_bus_sch_tb_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_NCD" xil_pn:name="computer_data_bus_guide.ncd" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="computer_data_bus_map.map" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="computer_data_bus_map.mrp" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="computer_data_bus_map.ncd" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGM" xil_pn:name="computer_data_bus_map.ngm" xil_pn:subbranch="Map"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="computer_data_bus_map.xrpt"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="computer_data_bus_ngdbuild.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_EXCEL_REPORT" xil_pn:name="computer_data_bus_pad.csv" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_TXT_REPORT" xil_pn:name="computer_data_bus_pad.txt" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="computer_data_bus_par.xrpt"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="computer_data_bus_summary.xml"/>
+    <file xil_pn:fileType="FILE_WEBTALK" xil_pn:name="computer_data_bus_usage.xml"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="computer_data_bus_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="decoder_st.prj"/>
+    <file xil_pn:fileType="FILE_SPL" xil_pn:name="decoder_st.spl"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="decoder_st.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="decoder_st.xst"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="decoder_st_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="decoder_st_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="decoder_tb_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="decoder_tb_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="decoder_tb_isim_beh.wdb"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_LOG" xil_pn:name="isim.log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="sprinkler_circuit.bld"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="sprinkler_circuit.cmd_log"/>
+    <file xil_pn:fileType="FILE_JHD" xil_pn:name="sprinkler_circuit.jhd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="sprinkler_circuit.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="sprinkler_circuit.ncd" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="sprinkler_circuit.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="sprinkler_circuit.ngd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="sprinkler_circuit.ngr"/>
+    <file xil_pn:fileType="FILE_PAD_MISC" xil_pn:name="sprinkler_circuit.pad"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAR_REPORT" xil_pn:name="sprinkler_circuit.par" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PCF" xil_pn:name="sprinkler_circuit.pcf" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="sprinkler_circuit.prj"/>
+    <file xil_pn:fileType="FILE_TRCE_MISC" xil_pn:name="sprinkler_circuit.ptwx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="sprinkler_circuit.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="sprinkler_circuit.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_TXT_REPORT" xil_pn:name="sprinkler_circuit.twr" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_XML_REPORT" xil_pn:name="sprinkler_circuit.twx" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_UNROUTES" xil_pn:name="sprinkler_circuit.unroutes" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_VERILOG" xil_pn:name="sprinkler_circuit.vf">
+      <branch xil_pn:name="Implementation"/>
+      <branch xil_pn:name="BehavioralSim"/>
+    </file>
+    <file xil_pn:fileType="FILE_XPI" xil_pn:name="sprinkler_circuit.xpi"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="sprinkler_circuit.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="sprinkler_circuit_envsettings.html"/>
+    <file xil_pn:fileType="FILE_NCD" xil_pn:name="sprinkler_circuit_guide.ncd" xil_pn:origination="imported"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="sprinkler_circuit_isim_beh.exe"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="sprinkler_circuit_map.map" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="sprinkler_circuit_map.mrp" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="sprinkler_circuit_map.ncd" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGM" xil_pn:name="sprinkler_circuit_map.ngm" xil_pn:subbranch="Map"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="sprinkler_circuit_map.xrpt"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="sprinkler_circuit_ngdbuild.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_EXCEL_REPORT" xil_pn:name="sprinkler_circuit_pad.csv" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_TXT_REPORT" xil_pn:name="sprinkler_circuit_pad.txt" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="sprinkler_circuit_par.xrpt"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="sprinkler_circuit_sprinkler_circuit_sch_tb_isim_beh.exe"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="sprinkler_circuit_sprinkler_circuit_sch_tb_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="sprinkler_circuit_summary.html"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="sprinkler_circuit_summary.xml"/>
+    <file xil_pn:fileType="FILE_WEBTALK" xil_pn:name="sprinkler_circuit_usage.xml"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="sprinkler_circuit_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="usage_statistics_webtalk.html"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="webtalk.log"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xlnx_auto_0_xdb"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1485219287" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1485219287">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1485826795" xil_pn:in_ck="5059881109399699777" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1485826795">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputRemoved"/>
+      <status xil_pn:value="OutputRemoved"/>
+    </transform>
+    <transform xil_pn:end_ts="1485826752" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-4062284441424725566" xil_pn:start_ts="1485826752">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1485826755" xil_pn:in_ck="-1216545888324406219" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="-3192158605007905148" xil_pn:start_ts="1485826752">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputRemoved"/>
+      <status xil_pn:value="OutputRemoved"/>
+    </transform>
+    <transform xil_pn:end_ts="1485219289" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="-6438278580786315889" xil_pn:start_ts="1485219289">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
+    </transform>
+    <transform xil_pn:end_ts="1485826795" xil_pn:in_ck="-8952108859827027630" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1485826795">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputRemoved"/>
+      <status xil_pn:value="OutputRemoved"/>
+    </transform>
+    <transform xil_pn:end_ts="1485826800" xil_pn:in_ck="-8952108859827027630" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="7925043659790830821" xil_pn:start_ts="1485826795">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="NotReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputRemoved"/>
+      <status xil_pn:value="OutputChanged"/>
+      <status xil_pn:value="OutputRemoved"/>
+    </transform>
+    <transform xil_pn:end_ts="1485826801" xil_pn:in_ck="3548519321708376634" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-4174146532205562488" xil_pn:start_ts="1485826800">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputRemoved"/>
+      <status xil_pn:value="OutputChanged"/>
+      <status xil_pn:value="OutputRemoved"/>
+    </transform>
+    <transform xil_pn:end_ts="1485211756" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1485211756">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1485821301" xil_pn:in_ck="-3113190091868657987" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="-1028661126610505974" xil_pn:start_ts="1485821298">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="computer_data_bus.vf"/>
+    </transform>
+    <transform xil_pn:end_ts="1485821301" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="-9174454665082408748" xil_pn:start_ts="1485821301">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1485211759" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1485211759">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1485821301" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="3870852658024451464" xil_pn:start_ts="1485821301">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1485211759" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="2988080280822507185" xil_pn:start_ts="1485211759">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1485821301" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="954101095468292382" xil_pn:start_ts="1485821301">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1485821554" xil_pn:in_ck="4043375654307759250" xil_pn:name="TRANEXT_xstsynthesize_spartan3e" xil_pn:prop_ck="-1772124256567819097" xil_pn:start_ts="1485821540">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name=".lso"/>
+      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
+      <outfile xil_pn:name="computer_data_bus.jhd"/>
+      <outfile xil_pn:name="computer_data_bus.lso"/>
+      <outfile xil_pn:name="computer_data_bus.ngc"/>
+      <outfile xil_pn:name="computer_data_bus.ngr"/>
+      <outfile xil_pn:name="computer_data_bus.prj"/>
+      <outfile xil_pn:name="computer_data_bus.stx"/>
+      <outfile xil_pn:name="computer_data_bus.syr"/>
+      <outfile xil_pn:name="computer_data_bus.xst"/>
+      <outfile xil_pn:name="computer_data_bus_computer_data_bus_sch_tb_stx_beh.prj"/>
+      <outfile xil_pn:name="computer_data_bus_xst.xrpt"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+      <outfile xil_pn:name="xst"/>
+    </transform>
+    <transform xil_pn:end_ts="1485821555" xil_pn:in_ck="-3113190091868655811" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="-8771729277893029325" xil_pn:start_ts="1485821555">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1485821565" xil_pn:in_ck="1457010136888304020" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="-268151589946780553" xil_pn:start_ts="1485821555">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="_ngo"/>
+      <outfile xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+      <outfile xil_pn:name="computer_data_bus.bld"/>
+      <outfile xil_pn:name="computer_data_bus.ngd"/>
+      <outfile xil_pn:name="computer_data_bus_ngdbuild.xrpt"/>
+    </transform>
+    <transform xil_pn:end_ts="1485821572" xil_pn:in_ck="-5469938001217115083" xil_pn:name="TRANEXT_map_spartan3" xil_pn:prop_ck="3236488012892527759" xil_pn:start_ts="1485821565">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="_xmsgs/map.xmsgs"/>
+      <outfile xil_pn:name="computer_data_bus.pcf"/>
+      <outfile xil_pn:name="computer_data_bus_map.map"/>
+      <outfile xil_pn:name="computer_data_bus_map.mrp"/>
+      <outfile xil_pn:name="computer_data_bus_map.ncd"/>
+      <outfile xil_pn:name="computer_data_bus_map.ngm"/>
+      <outfile xil_pn:name="computer_data_bus_map.xrpt"/>
+      <outfile xil_pn:name="computer_data_bus_summary.xml"/>
+      <outfile xil_pn:name="computer_data_bus_usage.xml"/>
+    </transform>
+    <transform xil_pn:end_ts="1485821585" xil_pn:in_ck="5226846831435242222" xil_pn:name="TRANEXT_par_spartan3" xil_pn:prop_ck="1934304854298957634" xil_pn:start_ts="1485821572">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="_xmsgs/par.xmsgs"/>
+      <outfile xil_pn:name="computer_data_bus.ncd"/>
+      <outfile xil_pn:name="computer_data_bus.pad"/>
+      <outfile xil_pn:name="computer_data_bus.par"/>
+      <outfile xil_pn:name="computer_data_bus.ptwx"/>
+      <outfile xil_pn:name="computer_data_bus.unroutes"/>
+      <outfile xil_pn:name="computer_data_bus.xpi"/>
+      <outfile xil_pn:name="computer_data_bus_pad.csv"/>
+      <outfile xil_pn:name="computer_data_bus_pad.txt"/>
+      <outfile xil_pn:name="computer_data_bus_par.xrpt"/>
+    </transform>
+    <transform xil_pn:end_ts="1485821602" xil_pn:in_ck="-3113190091868663436" xil_pn:name="TRANEXT_bitFile_spartan3e" xil_pn:prop_ck="2969983391363831627" xil_pn:start_ts="1485821590">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="_xmsgs/bitgen.xmsgs"/>
+      <outfile xil_pn:name="computer_data_bus.bgn"/>
+      <outfile xil_pn:name="computer_data_bus.bit"/>
+      <outfile xil_pn:name="computer_data_bus.drc"/>
+      <outfile xil_pn:name="computer_data_bus.ut"/>
+      <outfile xil_pn:name="usage_statistics_webtalk.html"/>
+      <outfile xil_pn:name="webtalk.log"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+    </transform>
+    <transform xil_pn:end_ts="1485821585" xil_pn:in_ck="4996756616930177329" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416187" xil_pn:start_ts="1485821580">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="_xmsgs/trce.xmsgs"/>
+      <outfile xil_pn:name="computer_data_bus.twr"/>
+      <outfile xil_pn:name="computer_data_bus.twx"/>
+    </transform>
+  </transforms>
+
+</generated_project>

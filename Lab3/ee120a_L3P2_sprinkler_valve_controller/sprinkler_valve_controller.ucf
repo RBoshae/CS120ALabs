@@ -1,0 +1,17 @@
+# Pin assignment for LEDs
+NET "d0" LOC = "M5"; # Signal name = LD0
+NET "d1" LOC = "M11"; # Signal name = LD1
+NET "d2" LOC = "P7"; # Signal name = LD2
+NET "d3" LOC = "P6"; # Signal name = LD3
+NET "d4" LOC = "N5"; # Signal name = LD4
+NET "d5" LOC = "N4"; # Signal name = LD5
+NET "d6" LOC = "P4"; # Signal name = LD6
+NET "d7" LOC = "G1"; # Signal name = LD7
+
+# Pin assignment for SWs
+NET "A" LOC = "K3"; # Signal name = SW2
+NET "B" LOC = "L3"; # Signal name = SW1
+NET "C" LOC = "P11"; # Signal name = SW0
+
+# Pin assignment for E
+NET "E" LOC = "N3"; # Signal name = SW7

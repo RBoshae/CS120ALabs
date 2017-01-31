@@ -1,0 +1,99 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 14.7
+//  \   \         Application : sch2hdl
+//  /   /         Filename : sprinkler_circuit.vf
+// /___/   /\     Timestamp : 01/23/2017 15:03:24
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: sch2hdl -intstyle ise -family spartan3e -verilog C:/Users/KongK/Documents/GitHub/CS120ALabs/Lab2/ee120a_L2P1_sprinkler_valve_controller/sprinkler_circuit.vf -w C:/Users/KongK/Documents/GitHub/CS120ALabs/Lab2/ee120a_L2P1_sprinkler_valve_controller/sprinkler_circuit.sch
+//Design Name: sprinkler_circuit
+//Device: spartan3e
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module sprinkler_circuit(A, 
+                         B, 
+                         C, 
+                         E, 
+                         d0, 
+                         d1, 
+                         d2, 
+                         d3, 
+                         d4, 
+                         d5, 
+                         d6, 
+                         d7);
+
+    input A;
+    input B;
+    input C;
+    input E;
+   output d0;
+   output d1;
+   output d2;
+   output d3;
+   output d4;
+   output d5;
+   output d6;
+   output d7;
+   
+   wire XLXN_28;
+   wire XLXN_29;
+   wire XLXN_31;
+   
+   INV  XLXI_1 (.I(C), 
+               .O(XLXN_31));
+   INV  XLXI_2 (.I(B), 
+               .O(XLXN_29));
+   INV  XLXI_3 (.I(A), 
+               .O(XLXN_28));
+   AND4  XLXI_4 (.I0(E), 
+                .I1(XLXN_31), 
+                .I2(XLXN_29), 
+                .I3(XLXN_28), 
+                .O(d0));
+   AND4  XLXI_5 (.I0(E), 
+                .I1(C), 
+                .I2(XLXN_29), 
+                .I3(XLXN_28), 
+                .O(d1));
+   AND4  XLXI_6 (.I0(E), 
+                .I1(XLXN_31), 
+                .I2(B), 
+                .I3(XLXN_28), 
+                .O(d2));
+   AND4  XLXI_7 (.I0(E), 
+                .I1(C), 
+                .I2(B), 
+                .I3(XLXN_28), 
+                .O(d3));
+   AND4  XLXI_8 (.I0(E), 
+                .I1(XLXN_31), 
+                .I2(XLXN_29), 
+                .I3(A), 
+                .O(d4));
+   AND4  XLXI_9 (.I0(E), 
+                .I1(C), 
+                .I2(XLXN_29), 
+                .I3(A), 
+                .O(d5));
+   AND4  XLXI_10 (.I0(E), 
+                 .I1(XLXN_31), 
+                 .I2(B), 
+                 .I3(A), 
+                 .O(d6));
+   AND4  XLXI_11 (.I0(E), 
+                 .I1(C), 
+                 .I2(B), 
+                 .I3(A), 
+                 .O(d7));
+endmodule

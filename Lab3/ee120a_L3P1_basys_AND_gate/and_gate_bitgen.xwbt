@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\KongK\Documents\GitHub\CS120ALabs\Lab3\ee120a_L3P1_basys_AND_gate\and_gate.ncd
+OUTFILE=C:\Users\KongK\Documents\GitHub\CS120ALabs\Lab3\ee120a_L3P1_basys_AND_gate\and_gate.bit
+FAMILY=Spartan3E
+PART=xc3s100e-5cp132
+WORKINGDIR=C:\Users\KongK\Documents\GitHub\CS120ALabs\Lab3\ee120a_L3P1_basys_AND_gate
+LICENSE=WebPack
+USER_INFO=211296468_0_0_870

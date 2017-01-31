@@ -1,0 +1,35 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 14.7
+//  \   \         Application : sch2hdl
+//  /   /         Filename : and_gate.vf
+// /___/   /\     Timestamp : 01/30/2017 14:39:07
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: sch2hdl -intstyle ise -family spartan3e -verilog C:/Users/KongK/Documents/GitHub/CS120ALabs/Lab3/ee120a_L3P1_basys_AND_gate/and_gate.vf -w C:/Users/KongK/Documents/GitHub/CS120ALabs/Lab3/ee120a_L3P1_basys_AND_gate/and_gate.sch
+//Design Name: and_gate
+//Device: spartan3e
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module and_gate(i1, 
+                i2, 
+                d);
+
+    input i1;
+    input i2;
+   output d;
+   
+   
+   AND2  XLXI_1 (.I0(i2), 
+                .I1(i1), 
+                .O(d));
+endmodule
