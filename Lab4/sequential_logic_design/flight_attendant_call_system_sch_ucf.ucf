@@ -1,0 +1,10 @@
+//Inputs
+
+NET "CLK" LOC = "B8";
+
+NET "CALL" LOC = "G12";
+
+NET "CANCEL" LOC = "C11";
+
+//Outputs
+NET "LED" LOC = "M5";
