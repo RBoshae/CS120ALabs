@@ -154,7 +154,7 @@ case( bundle )
 		a = 1'b0;
 		b = 1'b0;
 		c = 1'b0;
-		d = 1'b1;
+		d = 1'b0;
 		e = 1'b1;
 		f = 1'b0;
 		g = 1'b0;
@@ -170,9 +170,9 @@ case( bundle )
 		g = 1'b0;
 	end
 	
-	4'b1011: begin //B
-		a = 1'b0;
-		b = 1'b0;
+	4'b1011: begin //b
+		a = 1'b1;
+		b = 1'b1;
 		c = 1'b0;
 		d = 1'b0;
 		e = 1'b0;
@@ -190,14 +190,14 @@ case( bundle )
 		g = 1'b1;
 	end
 	
-	4'b1101: begin //D
-		a = 1'b0;
+	4'b1101: begin //d
+		a = 1'b1;
 		b = 1'b0;
 		c = 1'b0;
 		d = 1'b0;
 		e = 1'b0;
-		f = 1'b0;
-		g = 1'b1;
+		f = 1'b1;
+		g = 1'b0;
 	end
 	
 	4'b1110: begin //E

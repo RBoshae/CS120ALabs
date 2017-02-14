@@ -94,6 +94,8 @@
     <transform xil_pn:end_ts="1486421823" xil_pn:in_ck="-1423360852557912436" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="-1644431938701057542" xil_pn:start_ts="1486421820">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="InputChanged"/>
       <outfile xil_pn:name="BCD_to_7seg.vf"/>
     </transform>
     <transform xil_pn:end_ts="1486421823" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="7828470573703037508" xil_pn:start_ts="1486421823">
@@ -111,15 +113,20 @@
     <transform xil_pn:end_ts="1486421823" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="2988080280822507185" xil_pn:start_ts="1486421823">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
     </transform>
     <transform xil_pn:end_ts="1486421823" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="-8458529973280778866" xil_pn:start_ts="1486421823">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
     </transform>
     <transform xil_pn:end_ts="1486422461" xil_pn:in_ck="-2101962631082745137" xil_pn:name="TRANEXT_xstsynthesize_spartan3e" xil_pn:prop_ck="2834869400453713175" xil_pn:start_ts="1486422447">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
       <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="BCD_to_7seg_b.lso"/>
       <outfile xil_pn:name="BCD_to_7seg_b.ngc"/>
@@ -136,10 +143,12 @@
     <transform xil_pn:end_ts="1486422202" xil_pn:in_ck="-5762415390455401635" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="-5468401053334901213" xil_pn:start_ts="1486422202">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
     </transform>
     <transform xil_pn:end_ts="1486422476" xil_pn:in_ck="5183799542352109482" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="-8272966799128847257" xil_pn:start_ts="1486422465">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
       <outfile xil_pn:name="BCD_to_7seg_b.bld"/>
       <outfile xil_pn:name="BCD_to_7seg_b.ngd"/>
       <outfile xil_pn:name="BCD_to_7seg_b_ngdbuild.xrpt"/>
@@ -149,6 +158,7 @@
     <transform xil_pn:end_ts="1486422482" xil_pn:in_ck="4404543350623596869" xil_pn:name="TRANEXT_map_spartan3" xil_pn:prop_ck="3236488012892527759" xil_pn:start_ts="1486422476">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
       <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="BCD_to_7seg_b.pcf"/>
@@ -164,6 +174,7 @@
     <transform xil_pn:end_ts="1486422496" xil_pn:in_ck="8835069714502720446" xil_pn:name="TRANEXT_par_spartan3" xil_pn:prop_ck="1934304854298957634" xil_pn:start_ts="1486422482">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
       <outfile xil_pn:name="BCD_to_7seg_b.ncd"/>
       <outfile xil_pn:name="BCD_to_7seg_b.pad"/>
       <outfile xil_pn:name="BCD_to_7seg_b.par"/>
@@ -178,6 +189,7 @@
     <transform xil_pn:end_ts="1486422515" xil_pn:in_ck="-513466242068728220" xil_pn:name="TRANEXT_bitFile_spartan3e" xil_pn:prop_ck="2969983391363831627" xil_pn:start_ts="1486422503">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
       <outfile xil_pn:name="BCD_to_7seg_b.ut"/>
       <outfile xil_pn:name="_xmsgs/bitgen.xmsgs"/>
       <outfile xil_pn:name="bcd_to_7seg_b.bgn"/>
@@ -190,6 +202,7 @@
     <transform xil_pn:end_ts="1486422496" xil_pn:in_ck="2449212204680382273" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416187" xil_pn:start_ts="1486422491">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
       <outfile xil_pn:name="BCD_to_7seg_b.twr"/>
       <outfile xil_pn:name="BCD_to_7seg_b.twx"/>
       <outfile xil_pn:name="_xmsgs/trce.xmsgs"/>

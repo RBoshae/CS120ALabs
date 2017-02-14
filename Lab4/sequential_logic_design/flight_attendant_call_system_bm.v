@@ -22,8 +22,7 @@ module flight_attendant_call_system_bm(
     input wire clk,
     input wire call_button,
     input wire cancel_button,
-    output reg light_state
-    );
+    output reg light_state    );
 	 
 	 reg c_state;
 	 
@@ -32,8 +31,6 @@ module flight_attendant_call_system_bm(
 	c_state=0;
 	end
 	
-	
-	 
 	 // Combinatorial block
 	 always @(*) begin
 		case({call_button,cancel_button})

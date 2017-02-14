@@ -13,7 +13,8 @@ Compiling module and_gate
 Compiling module and_gate_and_gate_sch_tb
 Compiling module glbl
 Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
 Compiled 4 Verilog Units
 Built simulation executable C:/Users/KongK/Documents/GitHub/CS120ALabs/Lab3/ee120a_L3P1_basys_AND_gate/and_gate_and_gate_sch_tb_isim_beh.exe
-Fuse Memory Usage: 28100 KB
-Fuse CPU Usage: 828 ms
+Fuse Memory Usage: 27300 KB
+Fuse CPU Usage: 1030 ms

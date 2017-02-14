@@ -1,0 +1,15 @@
+xst -intstyle ise -ifn "C:/Users/KongK/Documents/GitHub/CS120ALabs/Lab4/rising_edge_detector/rising_edge_detector_sm.xst" -ofn "C:/Users/KongK/Documents/GitHub/CS120ALabs/Lab4/rising_edge_detector/rising_edge_detector_sm.syr" 
+xst -intstyle ise -ifn "C:/Users/KongK/Documents/GitHub/CS120ALabs/Lab4/rising_edge_detector/rising_edge_detector_sm.xst" -ofn "C:/Users/KongK/Documents/GitHub/CS120ALabs/Lab4/rising_edge_detector/rising_edge_detector_sm.syr" 
+xst -intstyle ise -ifn "C:/Users/KongK/Documents/GitHub/CS120ALabs/Lab4/rising_edge_detector/rising_edge_detector_sm.xst" -ofn "C:/Users/KongK/Documents/GitHub/CS120ALabs/Lab4/rising_edge_detector/rising_edge_detector_sm.syr" 
+xst -intstyle ise -ifn "C:/Users/KongK/Documents/GitHub/CS120ALabs/Lab4/rising_edge_detector/rising_edge_detector_sm.xst" -ofn "C:/Users/KongK/Documents/GitHub/CS120ALabs/Lab4/rising_edge_detector/rising_edge_detector_sm.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc rising_edge_detector_cf.ucf -p xc3s100e-cp132-5 rising_edge_detector_sm.ngc rising_edge_detector_sm.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o rising_edge_detector_sm_map.ncd rising_edge_detector_sm.ngd rising_edge_detector_sm.pcf 
+par -w -intstyle ise -ol high -t 1 rising_edge_detector_sm_map.ncd rising_edge_detector_sm.ncd rising_edge_detector_sm.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml rising_edge_detector_sm.twx rising_edge_detector_sm.ncd -o rising_edge_detector_sm.twr rising_edge_detector_sm.pcf -ucf rising_edge_detector_cf.ucf 
+bitgen -intstyle ise -f rising_edge_detector_sm.ut rising_edge_detector_sm.ncd 
+xst -intstyle ise -ifn "C:/Users/KongK/Documents/GitHub/CS120ALabs/Lab4/rising_edge_detector/rising_edge_detector_sm.xst" -ofn "C:/Users/KongK/Documents/GitHub/CS120ALabs/Lab4/rising_edge_detector/rising_edge_detector_sm.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc rising_edge_detector_cf.ucf -p xc3s100e-cp132-5 rising_edge_detector_sm.ngc rising_edge_detector_sm.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o rising_edge_detector_sm_map.ncd rising_edge_detector_sm.ngd rising_edge_detector_sm.pcf 
+par -w -intstyle ise -ol high -t 1 rising_edge_detector_sm_map.ncd rising_edge_detector_sm.ncd rising_edge_detector_sm.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml rising_edge_detector_sm.twx rising_edge_detector_sm.ncd -o rising_edge_detector_sm.twr rising_edge_detector_sm.pcf -ucf rising_edge_detector_cf.ucf 
+bitgen -intstyle ise -f rising_edge_detector_sm.ut rising_edge_detector_sm.ncd 

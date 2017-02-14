@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2017-02-06T16:36:11</DateModified>
+  <DateModified>2017-02-13T14:12:55</DateModified>
   <ModuleName>flight_attendant_call_system_bm</ModuleName>
   <SummaryTimeStamp>Unknown</SummaryTimeStamp>
   <SavedFilePath>C:/Users/KongK/Documents/GitHub/CS120ALabs/Lab4/sequential_logic_design/iseconfig/flight_attendant_call_system_bm.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>C:/Users/KongK/Documents/GitHub/CS120ALabs/Lab4/sequential_logic_design</ImplementationReportsDirectory>
+  <ImplementationReportsDirectory>C:/Users/KongK/Documents/GitHub/CS120ALabs/Lab4/sequential_logic_design\</ImplementationReportsDirectory>
   <DateInitialized>2017-02-06T16:36:10</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>

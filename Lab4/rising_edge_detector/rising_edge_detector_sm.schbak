@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<drawing version="7">
+    <attr value="spartan3e" name="DeviceFamilyName">
+        <trait delete="all:0" />
+        <trait editname="all:0" />
+        <trait edittrait="all:0" />
+    </attr>
+    <netlist>
+        <signal name="XLXN_1" />
+        <signal name="XLXN_2" />
+        <signal name="sgnl" />
+        <signal name="clk" />
+        <signal name="outedge" />
+        <port polarity="Input" name="sgnl" />
+        <port polarity="Input" name="clk" />
+        <port polarity="Output" name="outedge" />
+        <blockdef name="and2">
+            <timestamp>2000-1-1T10:10:10</timestamp>
+            <line x2="64" y1="-64" y2="-64" x1="0" />
+            <line x2="64" y1="-128" y2="-128" x1="0" />
+            <line x2="192" y1="-96" y2="-96" x1="256" />
+            <arc ex="144" ey="-144" sx="144" sy="-48" r="48" cx="144" cy="-96" />
+            <line x2="64" y1="-48" y2="-48" x1="144" />
+            <line x2="144" y1="-144" y2="-144" x1="64" />
+            <line x2="64" y1="-48" y2="-144" x1="64" />
+        </blockdef>
+        <blockdef name="inv">
+            <timestamp>2000-1-1T10:10:10</timestamp>
+            <line x2="64" y1="-32" y2="-32" x1="0" />
+            <line x2="160" y1="-32" y2="-32" x1="224" />
+            <line x2="128" y1="-64" y2="-32" x1="64" />
+            <line x2="64" y1="-32" y2="0" x1="128" />
+            <line x2="64" y1="0" y2="-64" x1="64" />
+            <circle r="16" cx="144" cy="-32" />
+        </blockdef>
+        <blockdef name="fd">
+            <timestamp>2000-1-1T10:10:10</timestamp>
+            <rect width="256" x="64" y="-320" height="256" />
+            <line x2="64" y1="-128" y2="-128" x1="0" />
+            <line x2="64" y1="-256" y2="-256" x1="0" />
+            <line x2="320" y1="-256" y2="-256" x1="384" />
+            <line x2="64" y1="-128" y2="-144" x1="80" />
+            <line x2="80" y1="-112" y2="-128" x1="64" />
+        </blockdef>
+        <block symbolname="inv" name="XLXI_2">
+            <blockpin signalname="XLXN_1" name="I" />
+            <blockpin signalname="XLXN_2" name="O" />
+        </block>
+        <block symbolname="fd" name="XLXI_3">
+            <blockpin signalname="clk" name="C" />
+            <blockpin signalname="sgnl" name="D" />
+            <blockpin signalname="XLXN_1" name="Q" />
+        </block>
+        <block symbolname="and2" name="XLXI_4">
+            <blockpin signalname="XLXN_2" name="I0" />
+            <blockpin signalname="sgnl" name="I1" />
+            <blockpin signalname="outedge" name="O" />
+        </block>
+    </netlist>
+    <sheet sheetnum="1" width="1760" height="1360">
+        <branch name="XLXN_1">
+            <wire x2="896" y1="608" y2="608" x1="832" />
+        </branch>
+        <instance x="448" y="864" name="XLXI_3" orien="R0" />
+        <instance x="896" y="640" name="XLXI_2" orien="R0" />
+        <branch name="XLXN_2">
+            <wire x2="1168" y1="608" y2="608" x1="1120" />
+        </branch>
+        <instance x="1168" y="672" name="XLXI_4" orien="R0" />
+        <branch name="sgnl">
+            <wire x2="336" y1="608" y2="608" x1="176" />
+            <wire x2="448" y1="608" y2="608" x1="336" />
+            <wire x2="336" y1="464" y2="608" x1="336" />
+            <wire x2="880" y1="464" y2="464" x1="336" />
+            <wire x2="880" y1="464" y2="544" x1="880" />
+            <wire x2="1168" y1="544" y2="544" x1="880" />
+        </branch>
+        <branch name="clk">
+            <wire x2="448" y1="736" y2="736" x1="176" />
+        </branch>
+        <iomarker fontsize="28" x="176" y="608" name="sgnl" orien="R180" />
+        <iomarker fontsize="28" x="176" y="736" name="clk" orien="R180" />
+        <branch name="outedge">
+            <wire x2="1456" y1="576" y2="576" x1="1424" />
+        </branch>
+        <iomarker fontsize="28" x="1456" y="576" name="outedge" orien="R0" />
+    </sheet>
+</drawing>

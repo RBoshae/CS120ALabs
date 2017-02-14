@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="rising_edge_detector.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name=".lso"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="_ngo"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/bitgen.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/map.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/par.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/trce.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="edgedetector_bh.bgn" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BIT" xil_pn:name="edgedetector_bh.bit" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="edgedetector_bh.bld"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="edgedetector_bh.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_DRC" xil_pn:name="edgedetector_bh.drc" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="edgedetector_bh.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="edgedetector_bh.ncd" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="edgedetector_bh.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="edgedetector_bh.ngd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="edgedetector_bh.ngr"/>
+    <file xil_pn:fileType="FILE_PAD_MISC" xil_pn:name="edgedetector_bh.pad"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAR_REPORT" xil_pn:name="edgedetector_bh.par" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PCF" xil_pn:name="edgedetector_bh.pcf" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="edgedetector_bh.prj"/>
+    <file xil_pn:fileType="FILE_TRCE_MISC" xil_pn:name="edgedetector_bh.ptwx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="edgedetector_bh.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="edgedetector_bh.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_TXT_REPORT" xil_pn:name="edgedetector_bh.twr" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_XML_REPORT" xil_pn:name="edgedetector_bh.twx" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_UNROUTES" xil_pn:name="edgedetector_bh.unroutes" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="edgedetector_bh.ut" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:fileType="FILE_XPI" xil_pn:name="edgedetector_bh.xpi"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="edgedetector_bh.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="edgedetector_bh_envsettings.html"/>
+    <file xil_pn:fileType="FILE_NCD" xil_pn:name="edgedetector_bh_guide.ncd" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="edgedetector_bh_map.map" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="edgedetector_bh_map.mrp" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="edgedetector_bh_map.ncd" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGM" xil_pn:name="edgedetector_bh_map.ngm" xil_pn:subbranch="Map"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="edgedetector_bh_map.xrpt"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="edgedetector_bh_ngdbuild.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_EXCEL_REPORT" xil_pn:name="edgedetector_bh_pad.csv" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_TXT_REPORT" xil_pn:name="edgedetector_bh_pad.txt" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="edgedetector_bh_par.xrpt"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="edgedetector_bh_summary.html"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="edgedetector_bh_summary.xml"/>
+    <file xil_pn:fileType="FILE_WEBTALK" xil_pn:name="edgedetector_bh_usage.xml"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="edgedetector_bh_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="rising_edge_detector_bm_clkdiv.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="rising_edge_detector_bm_clkdiv.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="rising_edge_detector_bm_clkdiv.xst"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="rising_edge_detector_sm.bgn" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BIT" xil_pn:name="rising_edge_detector_sm.bit" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="rising_edge_detector_sm.bld"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="rising_edge_detector_sm.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_DRC" xil_pn:name="rising_edge_detector_sm.drc" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:fileType="FILE_JHD" xil_pn:name="rising_edge_detector_sm.jhd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="rising_edge_detector_sm.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="rising_edge_detector_sm.ncd" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="rising_edge_detector_sm.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="rising_edge_detector_sm.ngd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="rising_edge_detector_sm.ngr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAR_REPORT" xil_pn:name="rising_edge_detector_sm.par" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PCF" xil_pn:name="rising_edge_detector_sm.pcf" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="rising_edge_detector_sm.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="rising_edge_detector_sm.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="rising_edge_detector_sm.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_TXT_REPORT" xil_pn:name="rising_edge_detector_sm.twr" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_XML_REPORT" xil_pn:name="rising_edge_detector_sm.twx" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_UNROUTES" xil_pn:name="rising_edge_detector_sm.unroutes" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="rising_edge_detector_sm.ut" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_VERILOG" xil_pn:name="rising_edge_detector_sm.vf"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="rising_edge_detector_sm.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="rising_edge_detector_sm_envsettings.html"/>
+    <file xil_pn:fileType="FILE_NCD" xil_pn:name="rising_edge_detector_sm_guide.ncd" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="rising_edge_detector_sm_map.map" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="rising_edge_detector_sm_map.mrp" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="rising_edge_detector_sm_map.ncd" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGM" xil_pn:name="rising_edge_detector_sm_map.ngm" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_EXCEL_REPORT" xil_pn:name="rising_edge_detector_sm_pad.csv" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_TXT_REPORT" xil_pn:name="rising_edge_detector_sm_pad.txt" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="rising_edge_detector_sm_summary.html"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="rising_edge_detector_sm_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="usage_statistics_webtalk.html"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="webtalk.log"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xlnx_auto_0_xdb"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1487031742" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1487031742">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1487031745" xil_pn:in_ck="-4983066306404608092" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="-8212316917864243503" xil_pn:start_ts="1487031742">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="rising_edge_detector_sm.vf"/>
+    </transform>
+    <transform xil_pn:end_ts="1487031745" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="-7646682892924269445" xil_pn:start_ts="1487031745">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1487031745" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1487031745">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1487031745" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="-8597418478847425073" xil_pn:start_ts="1487031745">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1487031745" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="2988080280822507185" xil_pn:start_ts="1487031745">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1487031745" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="1577520350288353861" xil_pn:start_ts="1487031745">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1487031759" xil_pn:in_ck="-4193421526268794843" xil_pn:name="TRANEXT_xstsynthesize_spartan3e" xil_pn:prop_ck="7405070962170558926" xil_pn:start_ts="1487031745">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name=".lso"/>
+      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
+      <outfile xil_pn:name="edgedetector_bh.lso"/>
+      <outfile xil_pn:name="edgedetector_bh.ngc"/>
+      <outfile xil_pn:name="edgedetector_bh.ngr"/>
+      <outfile xil_pn:name="edgedetector_bh.prj"/>
+      <outfile xil_pn:name="edgedetector_bh.stx"/>
+      <outfile xil_pn:name="edgedetector_bh.syr"/>
+      <outfile xil_pn:name="edgedetector_bh.xst"/>
+      <outfile xil_pn:name="edgedetector_bh_xst.xrpt"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+      <outfile xil_pn:name="xst"/>
+    </transform>
+    <transform xil_pn:end_ts="1487031759" xil_pn:in_ck="32485205214697509" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="756607180602685946" xil_pn:start_ts="1487031759">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1487031769" xil_pn:in_ck="2347574541575182113" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="3998268640491309086" xil_pn:start_ts="1487031759">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="_ngo"/>
+      <outfile xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+      <outfile xil_pn:name="edgedetector_bh.bld"/>
+      <outfile xil_pn:name="edgedetector_bh.ngd"/>
+      <outfile xil_pn:name="edgedetector_bh_ngdbuild.xrpt"/>
+    </transform>
+    <transform xil_pn:end_ts="1487031776" xil_pn:in_ck="4806236935171150947" xil_pn:name="TRANEXT_map_spartan3" xil_pn:prop_ck="3236488012892527759" xil_pn:start_ts="1487031769">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="_xmsgs/map.xmsgs"/>
+      <outfile xil_pn:name="edgedetector_bh.pcf"/>
+      <outfile xil_pn:name="edgedetector_bh_map.map"/>
+      <outfile xil_pn:name="edgedetector_bh_map.mrp"/>
+      <outfile xil_pn:name="edgedetector_bh_map.ncd"/>
+      <outfile xil_pn:name="edgedetector_bh_map.ngm"/>
+      <outfile xil_pn:name="edgedetector_bh_map.xrpt"/>
+      <outfile xil_pn:name="edgedetector_bh_summary.xml"/>
+      <outfile xil_pn:name="edgedetector_bh_usage.xml"/>
+    </transform>
+    <transform xil_pn:end_ts="1487031792" xil_pn:in_ck="-6949660387656838315" xil_pn:name="TRANEXT_par_spartan3" xil_pn:prop_ck="1934304854298957634" xil_pn:start_ts="1487031776">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="_xmsgs/par.xmsgs"/>
+      <outfile xil_pn:name="edgedetector_bh.ncd"/>
+      <outfile xil_pn:name="edgedetector_bh.pad"/>
+      <outfile xil_pn:name="edgedetector_bh.par"/>
+      <outfile xil_pn:name="edgedetector_bh.ptwx"/>
+      <outfile xil_pn:name="edgedetector_bh.unroutes"/>
+      <outfile xil_pn:name="edgedetector_bh.xpi"/>
+      <outfile xil_pn:name="edgedetector_bh_pad.csv"/>
+      <outfile xil_pn:name="edgedetector_bh_pad.txt"/>
+      <outfile xil_pn:name="edgedetector_bh_par.xrpt"/>
+    </transform>
+    <transform xil_pn:end_ts="1487031803" xil_pn:in_ck="1394675574215203510" xil_pn:name="TRANEXT_bitFile_spartan3e" xil_pn:prop_ck="2969983391363831627" xil_pn:start_ts="1487031792">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="_xmsgs/bitgen.xmsgs"/>
+      <outfile xil_pn:name="edgedetector_bh.bgn"/>
+      <outfile xil_pn:name="edgedetector_bh.bit"/>
+      <outfile xil_pn:name="edgedetector_bh.drc"/>
+      <outfile xil_pn:name="edgedetector_bh.ut"/>
+      <outfile xil_pn:name="usage_statistics_webtalk.html"/>
+      <outfile xil_pn:name="webtalk.log"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+    </transform>
+    <transform xil_pn:end_ts="1487031792" xil_pn:in_ck="-6142549766434357669" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416187" xil_pn:start_ts="1487031787">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="_xmsgs/trce.xmsgs"/>
+      <outfile xil_pn:name="edgedetector_bh.twr"/>
+      <outfile xil_pn:name="edgedetector_bh.twx"/>
+    </transform>
+  </transforms>
+
+</generated_project>

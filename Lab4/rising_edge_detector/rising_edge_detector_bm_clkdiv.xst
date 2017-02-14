@@ -1,0 +1,5 @@
+set -tmpdir "C:/Users/KongK/Documents/GitHub/CS120ALabs/Lab4/rising_edge_detector/xst/projnav.tmp"
+set -xsthdpdir "C:/Users/KongK/Documents/GitHub/CS120ALabs/Lab4/rising_edge_detector/xst"
+elaborate
+-ifn rising_edge_detector_bm_clkdiv.prj
+-ifmt mixed
