@@ -68,6 +68,13 @@
     <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="edgedetector_bh_summary.xml"/>
     <file xil_pn:fileType="FILE_WEBTALK" xil_pn:name="edgedetector_bh_usage.xml"/>
     <file xil_pn:fileType="FILE_XRPT" xil_pn:name="edgedetector_bh_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="edgedetector_tb_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="edgedetector_tb_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="edgedetector_tb_isim_beh.wdb"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_LOG" xil_pn:name="isim.log"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="rising_edge_detector_bm_clkdiv.prj"/>
     <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="rising_edge_detector_bm_clkdiv.stx"/>
     <file xil_pn:fileType="FILE_XST" xil_pn:name="rising_edge_detector_bm_clkdiv.xst"/>
@@ -106,117 +113,77 @@
     <file xil_pn:fileType="FILE_HTML" xil_pn:name="usage_statistics_webtalk.html"/>
     <file xil_pn:fileType="FILE_LOG" xil_pn:name="webtalk.log"/>
     <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
     <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xlnx_auto_0_xdb"/>
     <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
   </files>
 
   <transforms xmlns="http://www.xilinx.com/XMLSchema">
-    <transform xil_pn:end_ts="1487031742" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1487031742">
+    <transform xil_pn:end_ts="1487032361" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1487032361">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1487031745" xil_pn:in_ck="-4983066306404608092" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="-8212316917864243503" xil_pn:start_ts="1487031742">
+    <transform xil_pn:end_ts="1487033052" xil_pn:in_ck="3325529303059535854" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1487033052">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <outfile xil_pn:name="rising_edge_detector_sm.vf"/>
+      <outfile xil_pn:name="edgedetector_bh.v"/>
+      <outfile xil_pn:name="edgedetector_tb.v"/>
+      <outfile xil_pn:name="rising_edge_detector_bm_clkdiv.v"/>
+      <outfile xil_pn:name="rising_edge_detector_sm_tb.v"/>
+      <outfile xil_pn:name="rising_edge_detector_tb.v"/>
     </transform>
-    <transform xil_pn:end_ts="1487031745" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="-7646682892924269445" xil_pn:start_ts="1487031745">
-      <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="ReadyToRun"/>
-    </transform>
-    <transform xil_pn:end_ts="1487031745" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1487031745">
-      <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="ReadyToRun"/>
-    </transform>
-    <transform xil_pn:end_ts="1487031745" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="-8597418478847425073" xil_pn:start_ts="1487031745">
+    <transform xil_pn:end_ts="1487032361" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-2932482476082433509" xil_pn:start_ts="1487032361">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1487031745" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="2988080280822507185" xil_pn:start_ts="1487031745">
+    <transform xil_pn:end_ts="1487032361" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="-5698497257883852003" xil_pn:start_ts="1487032361">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1487031745" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="1577520350288353861" xil_pn:start_ts="1487031745">
+    <transform xil_pn:end_ts="1487032361" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="-7646682892924269445" xil_pn:start_ts="1487032361">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1487031759" xil_pn:in_ck="-4193421526268794843" xil_pn:name="TRANEXT_xstsynthesize_spartan3e" xil_pn:prop_ck="7405070962170558926" xil_pn:start_ts="1487031745">
+    <transform xil_pn:end_ts="1487033052" xil_pn:in_ck="3325529303059535854" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1487033052">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="edgedetector_bh.v"/>
+      <outfile xil_pn:name="edgedetector_tb.v"/>
+      <outfile xil_pn:name="rising_edge_detector_bm_clkdiv.v"/>
+      <outfile xil_pn:name="rising_edge_detector_sm_tb.v"/>
+      <outfile xil_pn:name="rising_edge_detector_tb.v"/>
+    </transform>
+    <transform xil_pn:end_ts="1487033056" xil_pn:in_ck="3325529303059535854" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="4699016339813339607" xil_pn:start_ts="1487033052">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
       <status xil_pn:value="OutputChanged"/>
-      <outfile xil_pn:name=".lso"/>
-      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
-      <outfile xil_pn:name="edgedetector_bh.lso"/>
-      <outfile xil_pn:name="edgedetector_bh.ngc"/>
-      <outfile xil_pn:name="edgedetector_bh.ngr"/>
-      <outfile xil_pn:name="edgedetector_bh.prj"/>
-      <outfile xil_pn:name="edgedetector_bh.stx"/>
-      <outfile xil_pn:name="edgedetector_bh.syr"/>
-      <outfile xil_pn:name="edgedetector_bh.xst"/>
-      <outfile xil_pn:name="edgedetector_bh_xst.xrpt"/>
-      <outfile xil_pn:name="webtalk_pn.xml"/>
-      <outfile xil_pn:name="xst"/>
+      <outfile xil_pn:name="edgedetector_tb_beh.prj"/>
+      <outfile xil_pn:name="edgedetector_tb_isim_beh.exe"/>
+      <outfile xil_pn:name="fuse.log"/>
+      <outfile xil_pn:name="isim"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="xilinxsim.ini"/>
+    </transform>
+    <transform xil_pn:end_ts="1487033057" xil_pn:in_ck="-201389713210210413" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-4498795111208445062" xil_pn:start_ts="1487033056">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="edgedetector_tb_isim_beh.wdb"/>
+      <outfile xil_pn:name="isim.cmd"/>
+      <outfile xil_pn:name="isim.log"/>
+    </transform>
+    <transform xil_pn:end_ts="1487031742" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1487031742">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
     </transform>
     <transform xil_pn:end_ts="1487031759" xil_pn:in_ck="32485205214697509" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="756607180602685946" xil_pn:start_ts="1487031759">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-    </transform>
-    <transform xil_pn:end_ts="1487031769" xil_pn:in_ck="2347574541575182113" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="3998268640491309086" xil_pn:start_ts="1487031759">
-      <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="ReadyToRun"/>
-      <outfile xil_pn:name="_ngo"/>
-      <outfile xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
-      <outfile xil_pn:name="edgedetector_bh.bld"/>
-      <outfile xil_pn:name="edgedetector_bh.ngd"/>
-      <outfile xil_pn:name="edgedetector_bh_ngdbuild.xrpt"/>
-    </transform>
-    <transform xil_pn:end_ts="1487031776" xil_pn:in_ck="4806236935171150947" xil_pn:name="TRANEXT_map_spartan3" xil_pn:prop_ck="3236488012892527759" xil_pn:start_ts="1487031769">
-      <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="ReadyToRun"/>
-      <outfile xil_pn:name="_xmsgs/map.xmsgs"/>
-      <outfile xil_pn:name="edgedetector_bh.pcf"/>
-      <outfile xil_pn:name="edgedetector_bh_map.map"/>
-      <outfile xil_pn:name="edgedetector_bh_map.mrp"/>
-      <outfile xil_pn:name="edgedetector_bh_map.ncd"/>
-      <outfile xil_pn:name="edgedetector_bh_map.ngm"/>
-      <outfile xil_pn:name="edgedetector_bh_map.xrpt"/>
-      <outfile xil_pn:name="edgedetector_bh_summary.xml"/>
-      <outfile xil_pn:name="edgedetector_bh_usage.xml"/>
-    </transform>
-    <transform xil_pn:end_ts="1487031792" xil_pn:in_ck="-6949660387656838315" xil_pn:name="TRANEXT_par_spartan3" xil_pn:prop_ck="1934304854298957634" xil_pn:start_ts="1487031776">
-      <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="WarningsGenerated"/>
-      <status xil_pn:value="ReadyToRun"/>
-      <outfile xil_pn:name="_xmsgs/par.xmsgs"/>
-      <outfile xil_pn:name="edgedetector_bh.ncd"/>
-      <outfile xil_pn:name="edgedetector_bh.pad"/>
-      <outfile xil_pn:name="edgedetector_bh.par"/>
-      <outfile xil_pn:name="edgedetector_bh.ptwx"/>
-      <outfile xil_pn:name="edgedetector_bh.unroutes"/>
-      <outfile xil_pn:name="edgedetector_bh.xpi"/>
-      <outfile xil_pn:name="edgedetector_bh_pad.csv"/>
-      <outfile xil_pn:name="edgedetector_bh_pad.txt"/>
-      <outfile xil_pn:name="edgedetector_bh_par.xrpt"/>
-    </transform>
-    <transform xil_pn:end_ts="1487031803" xil_pn:in_ck="1394675574215203510" xil_pn:name="TRANEXT_bitFile_spartan3e" xil_pn:prop_ck="2969983391363831627" xil_pn:start_ts="1487031792">
-      <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="ReadyToRun"/>
-      <outfile xil_pn:name="_xmsgs/bitgen.xmsgs"/>
-      <outfile xil_pn:name="edgedetector_bh.bgn"/>
-      <outfile xil_pn:name="edgedetector_bh.bit"/>
-      <outfile xil_pn:name="edgedetector_bh.drc"/>
-      <outfile xil_pn:name="edgedetector_bh.ut"/>
-      <outfile xil_pn:name="usage_statistics_webtalk.html"/>
-      <outfile xil_pn:name="webtalk.log"/>
-      <outfile xil_pn:name="webtalk_pn.xml"/>
-    </transform>
-    <transform xil_pn:end_ts="1487031792" xil_pn:in_ck="-6142549766434357669" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416187" xil_pn:start_ts="1487031787">
-      <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="ReadyToRun"/>
-      <outfile xil_pn:name="_xmsgs/trce.xmsgs"/>
-      <outfile xil_pn:name="edgedetector_bh.twr"/>
-      <outfile xil_pn:name="edgedetector_bh.twx"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="InputRemoved"/>
     </transform>
   </transforms>
 
