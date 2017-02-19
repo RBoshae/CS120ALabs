@@ -1,0 +1,5 @@
+set -tmpdir "C:/Users/KongK/Documents/GitHub/CS120ALabs/Lab4/led_display_time_multiplexing_circuit/xst/projnav.tmp"
+set -xsthdpdir "C:/Users/KongK/Documents/GitHub/CS120ALabs/Lab4/led_display_time_multiplexing_circuit/xst"
+elaborate
+-ifn hex2SevenSeg.prj
+-ifmt mixed
