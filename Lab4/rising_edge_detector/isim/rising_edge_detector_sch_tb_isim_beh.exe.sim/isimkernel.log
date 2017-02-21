@@ -1,0 +1,29 @@
+Command line:
+   rising_edge_detector_sch_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  50736
+
+Mon Feb 20 14:22:34 2017
+
+
+ Elaboration Time: 0.015625 sec
+
+ Current Memory Usage: 846.168 Meg
+
+ Total Signals          : 55
+ Total Nets             : 30
+ Total Signal Drivers   : 24
+ Total Blocks           : 10
+ Total Primitive Blocks : 8
+ Total Processes        : 33
+ Total Traceable Variables  : 24
+ Total Scalar Nets and Variables : 116
+Total Line Count : 53
+
+ Total Simulation Time: 0.03125 sec
+
+ Current Memory Usage: 846.168 Meg
+
+Mon Feb 20 14:22:48 2017
+

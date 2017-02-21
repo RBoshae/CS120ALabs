@@ -41,42 +41,44 @@ module edgedetector_tb;
 	initial begin
 		clk = 0;
 		forever begin
-		#50 clk = ~clk;
+		#105 clk = ~clk;
 		end
 	end
 
 	initial begin
 		// Initialize Inputs
+		clk = 0;
 		signal = 0;
-		#50;
-        
+		#100;
+ 
 		// Press
 		signal = 1;
-		#50;
+		#100;
+		// clk = 1; 
 		
 		// Press
 		signal = 1;
-		#50;
+		#100;
 		
 		// Release
 		signal = 0;
-		#50;	
+		#100;	
 
 		// Initialize Inputs
 		signal = 0;
-		#50;
+		#100;
         
 		// Press
 		signal = 1;
-		#50;
+		#100;
 		
 		// Press
 		signal = 1;
-		#50;
+		#100;
 		
 		// Release
 		signal = 0;
-		#50;		
+		#100;		
 	end
       
 endmodule

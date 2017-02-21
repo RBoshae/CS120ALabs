@@ -59,14 +59,14 @@ light_state |    5.776(R)|clk_BUFGP         |   0.000|
 ------------+------------+------------------+--------+
 
 
-Analysis completed Mon Feb 13 12:13:33 2017 
+Analysis completed Mon Feb 20 20:53:41 2017 
 --------------------------------------------------------------------------------
 
 Trace Settings:
 -------------------------
 Trace Settings 
 
-Peak Memory Usage: 158 MB
+Peak Memory Usage: 157 MB
 
 
 

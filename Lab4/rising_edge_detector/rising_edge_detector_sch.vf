@@ -1,0 +1,62 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 14.7
+//  \   \         Application : sch2hdl
+//  /   /         Filename : rising_edge_detector_sch.vf
+// /___/   /\     Timestamp : 02/20/2017 14:17:26
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: sch2hdl -intstyle ise -family spartan3e -verilog C:/Users/KongK/Documents/GitHub/CS120ALabs/Lab4/rising_edge_detector/rising_edge_detector_sch.vf -w C:/Users/KongK/Documents/GitHub/CS120ALabs/Lab4/rising_edge_detector/rising_edge_detector_sch.sch
+//Design Name: rising_edge_detector_sch
+//Device: spartan3e
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module rising_edge_detector_sch(clk, 
+                                signl, 
+                                outedge);
+
+    input clk;
+    input signl;
+   output outedge;
+   
+   wire XLXN_1;
+   wire XLXN_2;
+   wire XLXN_29;
+   wire XLXN_30;
+   wire XLXN_32;
+   wire XLXN_33;
+   
+   AND2B1  XLXI_1 (.I0(XLXN_29), 
+                  .I1(XLXN_30), 
+                  .O(outedge));
+   AND3B1  XLXI_2 (.I0(XLXN_30), 
+                  .I1(XLXN_29), 
+                  .I2(signl), 
+                  .O(XLXN_2));
+   AND3B2  XLXI_3 (.I0(signl), 
+                  .I1(XLXN_29), 
+                  .I2(XLXN_30), 
+                  .O(XLXN_1));
+   AND3B2  XLXI_4 (.I0(XLXN_30), 
+                  .I1(XLXN_29), 
+                  .I2(signl), 
+                  .O(XLXN_32));
+   OR2  XLXI_5 (.I0(XLXN_2), 
+               .I1(XLXN_1), 
+               .O(XLXN_33));
+   FD #( .INIT(1'b0) ) XLXI_6 (.C(clk), 
+              .D(XLXN_32), 
+              .Q(XLXN_30));
+   FD #( .INIT(1'b0) ) XLXI_7 (.C(clk), 
+              .D(XLXN_33), 
+              .Q(XLXN_29));
+endmodule

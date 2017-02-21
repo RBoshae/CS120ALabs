@@ -12,8 +12,7 @@ Compiling module edgedetector_bh
 Compiling module edgedetector_tb
 Compiling module glbl
 Time Resolution for simulation is 1ps.
-Waiting for 1 sub-compilation(s) to finish...
 Compiled 3 Verilog Units
 Built simulation executable C:/Users/KongK/Documents/GitHub/CS120ALabs/Lab4/rising_edge_detector/edgedetector_tb_isim_beh.exe
-Fuse Memory Usage: 28128 KB
-Fuse CPU Usage: 952 ms
+Fuse Memory Usage: 28140 KB
+Fuse CPU Usage: 281 ms

@@ -193,7 +193,7 @@ LAB25:    xsi_set_current_line(51, ng0);
 
 }
 
-static void Always_61_1(char *t0)
+static void Always_62_1(char *t0)
 {
     char *t1;
     char *t2;
@@ -210,7 +210,7 @@ LAB0:    t1 = (t0 + 3664U);
 
 LAB3:    goto *t2;
 
-LAB2:    xsi_set_current_line(61, ng0);
+LAB2:    xsi_set_current_line(62, ng0);
     t2 = (t0 + 4000);
     *((int *)t2) = 1;
     t3 = (t0 + 3696);
@@ -218,9 +218,9 @@ LAB2:    xsi_set_current_line(61, ng0);
     *((char **)t1) = &&LAB4;
 
 LAB1:    return;
-LAB4:    xsi_set_current_line(61, ng0);
+LAB4:    xsi_set_current_line(62, ng0);
 
-LAB5:    xsi_set_current_line(62, ng0);
+LAB5:    xsi_set_current_line(63, ng0);
     t4 = (t0 + 2336);
     t5 = (t4 + 56U);
     t6 = *((char **)t5);
@@ -233,7 +233,7 @@ LAB5:    xsi_set_current_line(62, ng0);
 
 extern void work_m_00000000001495586696_0307098039_init()
 {
-	static char *pe[] = {(void *)Always_37_0,(void *)Always_61_1};
+	static char *pe[] = {(void *)Always_37_0,(void *)Always_62_1};
 	xsi_register_didat("work_m_00000000001495586696_0307098039", "isim/edgedetector_tb_isim_beh.exe.sim/work/m_00000000001495586696_0307098039.didat");
 	xsi_register_executes(pe);
 }

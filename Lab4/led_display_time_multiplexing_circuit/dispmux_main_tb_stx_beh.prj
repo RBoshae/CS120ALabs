@@ -1,0 +1,5 @@
+verilog isim_temp "hex2SevenSeg.v"
+verilog isim_temp "disp_mux_bh.v"
+verilog isim_temp "dispmux_main_bh.v"
+verilog isim_temp "dispmux_main_tb.v"
+verilog isim_temp "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"
