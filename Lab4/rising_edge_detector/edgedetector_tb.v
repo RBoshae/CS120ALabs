@@ -22,7 +22,7 @@
 // 
 ////////////////////////////////////////////////////////////////////////////////
 
-module edgedetector_tb;
+module edgedetector_tb();
 
 	// Inputs
 	reg clk;
@@ -49,7 +49,7 @@ module edgedetector_tb;
 		// Initialize Inputs
 		clk = 0;
 		signal = 0;
-		#100;
+		#295;
  
 		// Press
 		signal = 1;

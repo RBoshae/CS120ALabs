@@ -23,7 +23,7 @@ module edgedetector_bh(
     input wire signal,
     output reg outedge	);
 	 
-	 wire slow_clk;
+	 //wire slow_clk;
 	 
 	 reg[1:0]c_state;
 	 reg[1:0]r_state;
@@ -32,7 +32,7 @@ module edgedetector_bh(
 	 localparam CHANGE= 'd1; // Pulse state
 	 localparam ONE = 'd2; // OFF2 state
 	
-	rising_edge_detector_bm_clkdiv c1(clk, slow_clk);
+	//rising_edge_detector_bm_clkdiv c1(clk, slow_clk);
 	
 	always @(*)begin
 		case(r_state)
@@ -57,9 +57,12 @@ module edgedetector_bh(
 				end
 		endcase
 	end
-	
+	/*
 	//Sequential Logic
 	always @(posedge slow_clk) begin
+		r_state <= c_state;
+	end*/
+	always @(posedge clk) begin
 		r_state <= c_state;
 	end
 endmodule

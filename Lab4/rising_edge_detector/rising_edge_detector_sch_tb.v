@@ -1,64 +1,28 @@
-// Verilog Test Fixture Template
+// Verilog test fixture created from schematic C:\Users\KongK\Documents\GitHub\CS120ALabs\Lab4\rising_edge_detector\rising_edge_detector_sch.sch - Wed Feb 22 15:33:11 2017
 
-  `timescale 1 ns / 1 ps
+`timescale 1ns / 1ps
 
-  module rising_edge_detector_sch_tb();
-	// Inputs
-	reg clk;
-	reg signl;
+module rising_edge_detector_sch_rising_edge_detector_sch_sch_tb();
 
-	// Outputs
-	wire outedge;
+// Inputs
+   reg signl;
+   reg clk;
 
-	// Instantiate the Unit Under Test (UUT)
-	rising_edge_detector_sch uut (
-		.clk(clk), 
+// Output
+   wire outedge;
+
+// Bidirs
+
+// Instantiate the UUT
+   rising_edge_detector_sch UUT (
 		.signl(signl), 
+		.clk(clk), 
 		.outedge(outedge)
-	);
-	
-	initial begin
+   );
+// Initialize Inputs
+   `ifdef auto_init
+       initial begin
+		signl = 0;
 		clk = 0;
-		signl = 0;
-		forever begin
-		#105 clk = ~clk;
-		end
-	end
-
-	initial begin
-		// Initialize Inputs
-		//clk = 0;
-		// signl = 0;
-		#100;
- 
-		// Press
-		signl = 1;
-		#100;
-		// clk = 1; 
-		
-		// Press
-		signl = 1;
-		#100;
-		
-		// Release
-		signl = 0;
-		#100;	
-
-		// Initialize Inputs
-		signl = 0;
-		#110;
-        
-		// Press
-		signl = 1;
-		#100;
-		
-		// Press
-		signl = 1;
-		#100;
-		
-		// Release
-		signl = 0;
-		#100;		
-	end
-      
+   `endif
 endmodule
