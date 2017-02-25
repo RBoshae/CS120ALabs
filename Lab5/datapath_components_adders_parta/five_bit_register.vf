@@ -1,0 +1,63 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 14.7
+//  \   \         Application : sch2hdl
+//  /   /         Filename : five_bit_register.vf
+// /___/   /\     Timestamp : 02/24/2017 17:01:06
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: sch2hdl -intstyle ise -family spartan3e -verilog C:/Users/rwbos/Documents/GitHub/CS120ALabs/Lab5/datapath_components_adders_parta/five_bit_register.vf -w C:/Users/rwbos/Documents/GitHub/CS120ALabs/Lab5/datapath_components_adders_parta/five_bit_register.sch
+//Design Name: five_bit_register
+//Device: spartan3e
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module five_bit_register(clk, 
+                         I0, 
+                         I1, 
+                         I2, 
+                         I3, 
+                         I4, 
+                         Q0, 
+                         Q1, 
+                         Q2, 
+                         Q3, 
+                         Q4);
+
+    input clk;
+    input I0;
+    input I1;
+    input I2;
+    input I3;
+    input I4;
+   output Q0;
+   output Q1;
+   output Q2;
+   output Q3;
+   output Q4;
+   
+   
+   FD #( .INIT(1'b0) ) XLXI_1 (.C(clk), 
+              .D(I3), 
+              .Q(Q3));
+   FD #( .INIT(1'b0) ) XLXI_2 (.C(clk), 
+              .D(I2), 
+              .Q(Q2));
+   FD #( .INIT(1'b0) ) XLXI_3 (.C(clk), 
+              .D(I1), 
+              .Q(Q1));
+   FD #( .INIT(1'b0) ) XLXI_4 (.C(clk), 
+              .D(I0), 
+              .Q(Q0));
+   FD #( .INIT(1'b0) ) XLXI_5 (.C(clk), 
+              .D(I4), 
+              .Q(Q4));
+endmodule

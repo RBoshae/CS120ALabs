@@ -1,0 +1,3 @@
+verilog work "full_adder.vf"
+verilog work "five_bit_register.vf"
+verilog work "four_bit_ripple_carry_adder.vf"
