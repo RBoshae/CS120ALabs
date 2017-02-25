@@ -59,14 +59,22 @@ light_state |    5.776(R)|clk_BUFGP         |   0.000|
 ------------+------------+------------------+--------+
 
 
+<<<<<<< HEAD
 Analysis completed Wed Feb 22 10:31:37 2017 
+=======
+Analysis completed Mon Feb 20 20:53:41 2017 
+>>>>>>> 9eacb3a77fb64c2e90ae5d513b209173a85857b2
 --------------------------------------------------------------------------------
 
 Trace Settings:
 -------------------------
 Trace Settings 
 
+<<<<<<< HEAD
 Peak Memory Usage: 154 MB
+=======
+Peak Memory Usage: 157 MB
+>>>>>>> 9eacb3a77fb64c2e90ae5d513b209173a85857b2
 
 
 

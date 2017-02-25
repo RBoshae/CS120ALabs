@@ -1,0 +1,27 @@
+// Clock Signal
+NET "clk" LOC = "B8";  
+
+// Input pins to set the number  
+NET "swInput[0]" LOC = "P11";  
+NET "swInput[1]" LOC = "L3";  
+NET "swInput[2]" LOC = "K3";  
+NET "swInput[3]" LOC = "B4";  
+
+// Selection pins to select which digit to update 
+NET "swSelect[0]" LOC = "E2";  
+NET "swSelect[1]" LOC = "N3";  
+
+// Standard 7-seg display output pins 
+NET "sseg[6]" LOC = "L14"; # A 
+NET "sseg[5]" LOC = "H12"; # B 
+NET "sseg[4]" LOC = "N14"; # C 
+NET "sseg[3]" LOC = "N11"; # D 
+NET "sseg[2]" LOC = "P12"; # E 
+NET "sseg[1]" LOC = "L13"; # F 
+NET "sseg[0]" LOC = "M12"; # G
+
+// 4 LED Displays
+NET "an[3]" LOC = "K14"; # AN3 
+NET "an[2]" LOC = "M13"; # AN2 
+NET "an[1]" LOC = "J12"; # AN1 
+NET "an[0]" LOC = "F12"; # AN0 

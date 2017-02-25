@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "C:/Users/KongK/Documents/GitHub/CS120ALabs/Lab5/datapath_components_adders_partb/carrylookahead_tb_isim_beh.exe" -prj "C:/Users/KongK/Documents/GitHub/CS120ALabs/Lab5/datapath_components_adders_partb/carrylookahead_tb_beh.prj" "work.carrylookahead_tb" "work.glbl" 

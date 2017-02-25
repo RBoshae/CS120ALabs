@@ -43,7 +43,7 @@ module flight_attendant_call_system_bm_tb;
 	initial begin
 		clk = 0;
 		forever begin
-		#45 clk = ~clk;
+		#50 clk = ~clk;
 		end
 	end
 	

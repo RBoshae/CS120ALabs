@@ -5,7 +5,11 @@
     The structure and the elements are likely to change over the next few releases.
     This means code written to parse this file will need to be revisited each subsequent release.-->
 
+<<<<<<< HEAD
   <application stringID="Xst" timeStamp="Wed Feb 22 10:31:13 2017">
+=======
+  <application stringID="Xst" timeStamp="Mon Feb 20 20:53:22 2017">
+>>>>>>> 9eacb3a77fb64c2e90ae5d513b209173a85857b2
     <section stringID="User_Env">
       <table stringID="User_EnvVar">
         <column stringID="variable"/>

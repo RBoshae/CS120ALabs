@@ -4,13 +4,21 @@ Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
 
 Total REAL time to Xst completion: 0.00 secs
+<<<<<<< HEAD
 Total CPU time to Xst completion: 0.18 secs
+=======
+Total CPU time to Xst completion: 0.07 secs
+>>>>>>> 9eacb3a77fb64c2e90ae5d513b209173a85857b2
  
 --> Parameter xsthdpdir set to xst
 
 
 Total REAL time to Xst completion: 0.00 secs
+<<<<<<< HEAD
 Total CPU time to Xst completion: 0.18 secs
+=======
+Total CPU time to Xst completion: 0.07 secs
+>>>>>>> 9eacb3a77fb64c2e90ae5d513b209173a85857b2
  
 --> Reading design: flight_attendant_call_system_bm.prj
 
@@ -314,12 +322,21 @@ Offset:              4.040ns (Levels of Logic = 1)
 =========================================================================
 
 
+<<<<<<< HEAD
 Total REAL time to Xst completion: 5.00 secs
 Total CPU time to Xst completion: 4.86 secs
  
 --> 
 
 Total memory usage is 289252 kilobytes
+=======
+Total REAL time to Xst completion: 4.00 secs
+Total CPU time to Xst completion: 3.72 secs
+ 
+--> 
+
+Total memory usage is 293056 kilobytes
+>>>>>>> 9eacb3a77fb64c2e90ae5d513b209173a85857b2
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :    0 (   0 filtered)

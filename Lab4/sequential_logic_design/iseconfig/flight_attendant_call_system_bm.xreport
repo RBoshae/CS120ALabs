@@ -1,7 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
+<<<<<<< HEAD
   <DateModified>2017-02-22T15:06:42</DateModified>
+=======
+  <DateModified>2017-02-20T20:31:49</DateModified>
+>>>>>>> 9eacb3a77fb64c2e90ae5d513b209173a85857b2
   <ModuleName>flight_attendant_call_system_bm</ModuleName>
   <SummaryTimeStamp>Unknown</SummaryTimeStamp>
   <SavedFilePath>C:/Users/rwbos/OneDrive/Documents/GitHub/CS120ALabs/Lab4/sequential_logic_design/iseconfig/flight_attendant_call_system_bm.xreport</SavedFilePath>

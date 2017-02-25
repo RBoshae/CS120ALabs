@@ -34,7 +34,11 @@ NGDBUILD Design Results Summary:
 Total memory usage is 175376 kilobytes
 
 Writing NGD file "flight_attendant_call_system_bm.ngd" ...
+<<<<<<< HEAD
 Total REAL time to NGDBUILD completion:  3 sec
+=======
+Total REAL time to NGDBUILD completion:  2 sec
+>>>>>>> 9eacb3a77fb64c2e90ae5d513b209173a85857b2
 Total CPU time to NGDBUILD completion:   2 sec
 
 Writing NGDBUILD log file "flight_attendant_call_system_bm.bld"...

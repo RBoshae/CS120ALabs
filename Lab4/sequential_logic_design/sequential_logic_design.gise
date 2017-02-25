@@ -39,11 +39,9 @@
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="flight_attendant_call_system_bm.ngc"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="flight_attendant_call_system_bm.ngd"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="flight_attendant_call_system_bm.ngr"/>
-    <file xil_pn:fileType="FILE_PAD_MISC" xil_pn:name="flight_attendant_call_system_bm.pad"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAR_REPORT" xil_pn:name="flight_attendant_call_system_bm.par" xil_pn:subbranch="Par"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PCF" xil_pn:name="flight_attendant_call_system_bm.pcf" xil_pn:subbranch="Map"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="flight_attendant_call_system_bm.prj"/>
-    <file xil_pn:fileType="FILE_TRCE_MISC" xil_pn:name="flight_attendant_call_system_bm.ptwx"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="flight_attendant_call_system_bm.stx"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="flight_attendant_call_system_bm.syr"/>
     <file xil_pn:fileType="FILE_VERILOG_INSTTEMPLATE" xil_pn:name="flight_attendant_call_system_bm.tfi"/>
@@ -51,7 +49,6 @@
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_XML_REPORT" xil_pn:name="flight_attendant_call_system_bm.twx" xil_pn:subbranch="Par"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_UNROUTES" xil_pn:name="flight_attendant_call_system_bm.unroutes" xil_pn:subbranch="Par"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="flight_attendant_call_system_bm.ut" xil_pn:subbranch="FPGAConfiguration"/>
-    <file xil_pn:fileType="FILE_XPI" xil_pn:name="flight_attendant_call_system_bm.xpi"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="flight_attendant_call_system_bm.xst"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="flight_attendant_call_system_bm_beh.prj"/>
     <file xil_pn:fileType="FILE_HTML" xil_pn:name="flight_attendant_call_system_bm_envsettings.html"/>
@@ -62,23 +59,64 @@
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="flight_attendant_call_system_bm_map.mrp" xil_pn:subbranch="Map"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="flight_attendant_call_system_bm_map.ncd" xil_pn:subbranch="Map"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGM" xil_pn:name="flight_attendant_call_system_bm_map.ngm" xil_pn:subbranch="Map"/>
-    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="flight_attendant_call_system_bm_map.xrpt"/>
-    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="flight_attendant_call_system_bm_ngdbuild.xrpt"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_EXCEL_REPORT" xil_pn:name="flight_attendant_call_system_bm_pad.csv" xil_pn:subbranch="Par"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_TXT_REPORT" xil_pn:name="flight_attendant_call_system_bm_pad.txt" xil_pn:subbranch="Par"/>
-    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="flight_attendant_call_system_bm_par.xrpt"/>
     <file xil_pn:fileType="FILE_HTML" xil_pn:name="flight_attendant_call_system_bm_summary.html"/>
+<<<<<<< HEAD
     <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="flight_attendant_call_system_bm_summary.xml"/>
+=======
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="flight_attendant_call_system_bm_tb_beh.prj"/>
+>>>>>>> 9eacb3a77fb64c2e90ae5d513b209173a85857b2
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="flight_attendant_call_system_bm_tb_isim_beh.exe"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="flight_attendant_call_system_bm_tb_stx_beh.prj"/>
-    <file xil_pn:fileType="FILE_WEBTALK" xil_pn:name="flight_attendant_call_system_bm_usage.xml"/>
     <file xil_pn:fileType="FILE_XRPT" xil_pn:name="flight_attendant_call_system_bm_xst.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="flight_attendant_call_system_sch.bgn" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BIT" xil_pn:name="flight_attendant_call_system_sch.bit" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="flight_attendant_call_system_sch.bld"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="flight_attendant_call_system_sch.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_DRC" xil_pn:name="flight_attendant_call_system_sch.drc" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:fileType="FILE_JHD" xil_pn:name="flight_attendant_call_system_sch.jhd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="flight_attendant_call_system_sch.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="flight_attendant_call_system_sch.ncd" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="flight_attendant_call_system_sch.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="flight_attendant_call_system_sch.ngd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="flight_attendant_call_system_sch.ngr"/>
+    <file xil_pn:fileType="FILE_PAD_MISC" xil_pn:name="flight_attendant_call_system_sch.pad"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAR_REPORT" xil_pn:name="flight_attendant_call_system_sch.par" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PCF" xil_pn:name="flight_attendant_call_system_sch.pcf" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="flight_attendant_call_system_sch.prj"/>
+    <file xil_pn:fileType="FILE_TRCE_MISC" xil_pn:name="flight_attendant_call_system_sch.ptwx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="flight_attendant_call_system_sch.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="flight_attendant_call_system_sch.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_TXT_REPORT" xil_pn:name="flight_attendant_call_system_sch.twr" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_XML_REPORT" xil_pn:name="flight_attendant_call_system_sch.twx" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_UNROUTES" xil_pn:name="flight_attendant_call_system_sch.unroutes" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="flight_attendant_call_system_sch.ut" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_VERILOG" xil_pn:name="flight_attendant_call_system_sch.vf"/>
+    <file xil_pn:fileType="FILE_XPI" xil_pn:name="flight_attendant_call_system_sch.xpi"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="flight_attendant_call_system_sch.xst"/>
     <file xil_pn:fileType="FILE_NCD" xil_pn:name="flight_attendant_call_system_sch_guide.ncd" xil_pn:origination="imported"/>
+<<<<<<< HEAD
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="flight_attendant_call_system_tb_isim_beh.exe"/>
+=======
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="flight_attendant_call_system_sch_map.map" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="flight_attendant_call_system_sch_map.mrp" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="flight_attendant_call_system_sch_map.ncd" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGM" xil_pn:name="flight_attendant_call_system_sch_map.ngm" xil_pn:subbranch="Map"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="flight_attendant_call_system_sch_map.xrpt"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="flight_attendant_call_system_sch_ngdbuild.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_EXCEL_REPORT" xil_pn:name="flight_attendant_call_system_sch_pad.csv" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_TXT_REPORT" xil_pn:name="flight_attendant_call_system_sch_pad.txt" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="flight_attendant_call_system_sch_par.xrpt"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="flight_attendant_call_system_sch_summary.xml"/>
+    <file xil_pn:fileType="FILE_WEBTALK" xil_pn:name="flight_attendant_call_system_sch_usage.xml"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="flight_attendant_call_system_sch_xst.xrpt"/>
+>>>>>>> 9eacb3a77fb64c2e90ae5d513b209173a85857b2
     <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
     <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_LOG" xil_pn:name="isim.log"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="planAhead_run_1"/>
     <file xil_pn:fileType="FILE_HTML" xil_pn:name="usage_statistics_webtalk.html"/>
     <file xil_pn:fileType="FILE_LOG" xil_pn:name="webtalk.log"/>
     <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
@@ -106,10 +144,13 @@
     <transform xil_pn:end_ts="1487804851" xil_pn:in_ck="7125734532288765192" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="415751306935244806" xil_pn:start_ts="1487804849">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="InputChanged"/>
     </transform>
     <transform xil_pn:end_ts="1487017431" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="-340562672621262768" xil_pn:start_ts="1487017431">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
     </transform>
     <transform xil_pn:end_ts="1487804851" xil_pn:in_ck="-6682956896755058577" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1487804851">
       <status xil_pn:value="SuccessfullyRun"/>
@@ -139,68 +180,82 @@
       <outfile xil_pn:name="isim.cmd"/>
       <outfile xil_pn:name="isim.log"/>
     </transform>
-    <transform xil_pn:end_ts="1487016756" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1487016756">
+    <transform xil_pn:end_ts="1487653093" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1487653093">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1487016759" xil_pn:in_ck="7125734532288765192" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="-282454019809115194" xil_pn:start_ts="1487016756">
+    <transform xil_pn:end_ts="1487653095" xil_pn:in_ck="7125734532288765192" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="-6710383526830160427" xil_pn:start_ts="1487653093">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+<<<<<<< HEAD
       <status xil_pn:value="OutOfDateForInputs"/>
       <status xil_pn:value="InputChanged"/>
+=======
+      <outfile xil_pn:name="flight_attendant_call_system_sch.vf"/>
+>>>>>>> 9eacb3a77fb64c2e90ae5d513b209173a85857b2
     </transform>
-    <transform xil_pn:end_ts="1487016759" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="-340562672621262768" xil_pn:start_ts="1487016759">
+    <transform xil_pn:end_ts="1487653095" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="7208951555618287583" xil_pn:start_ts="1487653095">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1487016759" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1487016759">
+    <transform xil_pn:end_ts="1487653095" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1487653095">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1487016759" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="4483734785331947204" xil_pn:start_ts="1487016759">
+    <transform xil_pn:end_ts="1487653095" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="2999894453148485779" xil_pn:start_ts="1487653095">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1487016759" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="2988080280822507185" xil_pn:start_ts="1487016759">
+    <transform xil_pn:end_ts="1487653095" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="2988080280822507185" xil_pn:start_ts="1487653095">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <status xil_pn:value="OutOfDateForPredecessor"/>
     </transform>
-    <transform xil_pn:end_ts="1487016759" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="-4063244122440398310" xil_pn:start_ts="1487016759">
+    <transform xil_pn:end_ts="1487653095" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="-4959071846155875607" xil_pn:start_ts="1487653095">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <status xil_pn:value="OutOfDateForPredecessor"/>
     </transform>
+<<<<<<< HEAD
     <transform xil_pn:end_ts="1487788279" xil_pn:in_ck="6733770612277946321" xil_pn:name="TRANEXT_xstsynthesize_spartan3e" xil_pn:prop_ck="-2935551351509019741" xil_pn:start_ts="1487788271">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <status xil_pn:value="OutOfDateForInputs"/>
       <status xil_pn:value="OutOfDateForPredecessor"/>
+=======
+    <transform xil_pn:end_ts="1487653101" xil_pn:in_ck="7544619046737129271" xil_pn:name="TRANEXT_xstsynthesize_spartan3e" xil_pn:prop_ck="4175235717718722418" xil_pn:start_ts="1487653095">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+>>>>>>> 9eacb3a77fb64c2e90ae5d513b209173a85857b2
       <status xil_pn:value="OutOfDateForOutputs"/>
       <status xil_pn:value="InputChanged"/>
       <status xil_pn:value="OutputChanged"/>
-      <status xil_pn:value="OutputRemoved"/>
       <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
-      <outfile xil_pn:name="flight_attendant_call_system_bm.lso"/>
-      <outfile xil_pn:name="flight_attendant_call_system_bm.ngc"/>
-      <outfile xil_pn:name="flight_attendant_call_system_bm.ngr"/>
-      <outfile xil_pn:name="flight_attendant_call_system_bm.prj"/>
-      <outfile xil_pn:name="flight_attendant_call_system_bm.stx"/>
-      <outfile xil_pn:name="flight_attendant_call_system_bm.syr"/>
-      <outfile xil_pn:name="flight_attendant_call_system_bm.xst"/>
-      <outfile xil_pn:name="flight_attendant_call_system_bm_tb_stx_beh.prj"/>
-      <outfile xil_pn:name="flight_attendant_call_system_bm_xst.xrpt"/>
+      <outfile xil_pn:name="flight_attendant_call_system_sch.jhd"/>
+      <outfile xil_pn:name="flight_attendant_call_system_sch.lso"/>
+      <outfile xil_pn:name="flight_attendant_call_system_sch.ngc"/>
+      <outfile xil_pn:name="flight_attendant_call_system_sch.ngr"/>
+      <outfile xil_pn:name="flight_attendant_call_system_sch.prj"/>
+      <outfile xil_pn:name="flight_attendant_call_system_sch.stx"/>
+      <outfile xil_pn:name="flight_attendant_call_system_sch.syr"/>
+      <outfile xil_pn:name="flight_attendant_call_system_sch.xst"/>
+      <outfile xil_pn:name="flight_attendant_call_system_sch_xst.xrpt"/>
       <outfile xil_pn:name="webtalk_pn.xml"/>
       <outfile xil_pn:name="xst"/>
     </transform>
-    <transform xil_pn:end_ts="1487016778" xil_pn:in_ck="-2895657270401184403" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="9074569733419333999" xil_pn:start_ts="1487016778">
+    <transform xil_pn:end_ts="1487653101" xil_pn:in_ck="-2895657270401184403" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="4312896023485214398" xil_pn:start_ts="1487653101">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <status xil_pn:value="OutOfDateForInputs"/>
       <status xil_pn:value="OutOfDateForPredecessor"/>
       <status xil_pn:value="InputChanged"/>
     </transform>
+<<<<<<< HEAD
     <transform xil_pn:end_ts="1487788285" xil_pn:in_ck="-8468446707151153760" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="3573409156833284659" xil_pn:start_ts="1487788279">
+=======
+    <transform xil_pn:end_ts="1487653106" xil_pn:in_ck="-8400349643453329822" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="4538564426517236194" xil_pn:start_ts="1487653101">
+>>>>>>> 9eacb3a77fb64c2e90ae5d513b209173a85857b2
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <status xil_pn:value="OutOfDateForInputs"/>
@@ -210,11 +265,15 @@
       <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="_ngo"/>
       <outfile xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
-      <outfile xil_pn:name="flight_attendant_call_system_bm.bld"/>
-      <outfile xil_pn:name="flight_attendant_call_system_bm.ngd"/>
-      <outfile xil_pn:name="flight_attendant_call_system_bm_ngdbuild.xrpt"/>
+      <outfile xil_pn:name="flight_attendant_call_system_sch.bld"/>
+      <outfile xil_pn:name="flight_attendant_call_system_sch.ngd"/>
+      <outfile xil_pn:name="flight_attendant_call_system_sch_ngdbuild.xrpt"/>
     </transform>
+<<<<<<< HEAD
     <transform xil_pn:end_ts="1487788290" xil_pn:in_ck="-5762990769026078943" xil_pn:name="TRANEXT_map_spartan3" xil_pn:prop_ck="3236488012892527759" xil_pn:start_ts="1487788285">
+=======
+    <transform xil_pn:end_ts="1487653109" xil_pn:in_ck="3247839292585037284" xil_pn:name="TRANEXT_map_spartan3" xil_pn:prop_ck="3236488012892527759" xil_pn:start_ts="1487653106">
+>>>>>>> 9eacb3a77fb64c2e90ae5d513b209173a85857b2
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <status xil_pn:value="OutOfDateForInputs"/>
@@ -223,16 +282,20 @@
       <status xil_pn:value="InputChanged"/>
       <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="_xmsgs/map.xmsgs"/>
-      <outfile xil_pn:name="flight_attendant_call_system_bm.pcf"/>
-      <outfile xil_pn:name="flight_attendant_call_system_bm_map.map"/>
-      <outfile xil_pn:name="flight_attendant_call_system_bm_map.mrp"/>
-      <outfile xil_pn:name="flight_attendant_call_system_bm_map.ncd"/>
-      <outfile xil_pn:name="flight_attendant_call_system_bm_map.ngm"/>
-      <outfile xil_pn:name="flight_attendant_call_system_bm_map.xrpt"/>
-      <outfile xil_pn:name="flight_attendant_call_system_bm_summary.xml"/>
-      <outfile xil_pn:name="flight_attendant_call_system_bm_usage.xml"/>
+      <outfile xil_pn:name="flight_attendant_call_system_sch.pcf"/>
+      <outfile xil_pn:name="flight_attendant_call_system_sch_map.map"/>
+      <outfile xil_pn:name="flight_attendant_call_system_sch_map.mrp"/>
+      <outfile xil_pn:name="flight_attendant_call_system_sch_map.ncd"/>
+      <outfile xil_pn:name="flight_attendant_call_system_sch_map.ngm"/>
+      <outfile xil_pn:name="flight_attendant_call_system_sch_map.xrpt"/>
+      <outfile xil_pn:name="flight_attendant_call_system_sch_summary.xml"/>
+      <outfile xil_pn:name="flight_attendant_call_system_sch_usage.xml"/>
     </transform>
+<<<<<<< HEAD
     <transform xil_pn:end_ts="1487788298" xil_pn:in_ck="6775160479491401146" xil_pn:name="TRANEXT_par_spartan3" xil_pn:prop_ck="1934304854298957634" xil_pn:start_ts="1487788290">
+=======
+    <transform xil_pn:end_ts="1487653118" xil_pn:in_ck="3352071625017270678" xil_pn:name="TRANEXT_par_spartan3" xil_pn:prop_ck="1934304854298957634" xil_pn:start_ts="1487653109">
+>>>>>>> 9eacb3a77fb64c2e90ae5d513b209173a85857b2
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <status xil_pn:value="OutOfDateForInputs"/>
@@ -241,17 +304,17 @@
       <status xil_pn:value="InputChanged"/>
       <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="_xmsgs/par.xmsgs"/>
-      <outfile xil_pn:name="flight_attendant_call_system_bm.ncd"/>
-      <outfile xil_pn:name="flight_attendant_call_system_bm.pad"/>
-      <outfile xil_pn:name="flight_attendant_call_system_bm.par"/>
-      <outfile xil_pn:name="flight_attendant_call_system_bm.ptwx"/>
-      <outfile xil_pn:name="flight_attendant_call_system_bm.unroutes"/>
-      <outfile xil_pn:name="flight_attendant_call_system_bm.xpi"/>
-      <outfile xil_pn:name="flight_attendant_call_system_bm_pad.csv"/>
-      <outfile xil_pn:name="flight_attendant_call_system_bm_pad.txt"/>
-      <outfile xil_pn:name="flight_attendant_call_system_bm_par.xrpt"/>
+      <outfile xil_pn:name="flight_attendant_call_system_sch.ncd"/>
+      <outfile xil_pn:name="flight_attendant_call_system_sch.pad"/>
+      <outfile xil_pn:name="flight_attendant_call_system_sch.par"/>
+      <outfile xil_pn:name="flight_attendant_call_system_sch.ptwx"/>
+      <outfile xil_pn:name="flight_attendant_call_system_sch.unroutes"/>
+      <outfile xil_pn:name="flight_attendant_call_system_sch.xpi"/>
+      <outfile xil_pn:name="flight_attendant_call_system_sch_pad.csv"/>
+      <outfile xil_pn:name="flight_attendant_call_system_sch_pad.txt"/>
+      <outfile xil_pn:name="flight_attendant_call_system_sch_par.xrpt"/>
     </transform>
-    <transform xil_pn:end_ts="1487016833" xil_pn:in_ck="-8727944565718004944" xil_pn:name="TRANEXT_bitFile_spartan3e" xil_pn:prop_ck="2969983391363831627" xil_pn:start_ts="1487016823">
+    <transform xil_pn:end_ts="1487653123" xil_pn:in_ck="-4345128496789132561" xil_pn:name="TRANEXT_bitFile_spartan3e" xil_pn:prop_ck="2969983391363831627" xil_pn:start_ts="1487653118">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <status xil_pn:value="OutOfDateForInputs"/>
@@ -260,15 +323,19 @@
       <status xil_pn:value="InputChanged"/>
       <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="_xmsgs/bitgen.xmsgs"/>
-      <outfile xil_pn:name="flight_attendant_call_system_bm.bgn"/>
-      <outfile xil_pn:name="flight_attendant_call_system_bm.bit"/>
-      <outfile xil_pn:name="flight_attendant_call_system_bm.drc"/>
-      <outfile xil_pn:name="flight_attendant_call_system_bm.ut"/>
+      <outfile xil_pn:name="flight_attendant_call_system_sch.bgn"/>
+      <outfile xil_pn:name="flight_attendant_call_system_sch.bit"/>
+      <outfile xil_pn:name="flight_attendant_call_system_sch.drc"/>
+      <outfile xil_pn:name="flight_attendant_call_system_sch.ut"/>
       <outfile xil_pn:name="usage_statistics_webtalk.html"/>
       <outfile xil_pn:name="webtalk.log"/>
       <outfile xil_pn:name="webtalk_pn.xml"/>
     </transform>
+<<<<<<< HEAD
     <transform xil_pn:end_ts="1487788298" xil_pn:in_ck="6051706872655077533" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416187" xil_pn:start_ts="1487788295">
+=======
+    <transform xil_pn:end_ts="1487653118" xil_pn:in_ck="-3233342146586636580" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416187" xil_pn:start_ts="1487653115">
+>>>>>>> 9eacb3a77fb64c2e90ae5d513b209173a85857b2
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <status xil_pn:value="OutOfDateForInputs"/>
@@ -277,8 +344,8 @@
       <status xil_pn:value="InputChanged"/>
       <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="_xmsgs/trce.xmsgs"/>
-      <outfile xil_pn:name="flight_attendant_call_system_bm.twr"/>
-      <outfile xil_pn:name="flight_attendant_call_system_bm.twx"/>
+      <outfile xil_pn:name="flight_attendant_call_system_sch.twr"/>
+      <outfile xil_pn:name="flight_attendant_call_system_sch.twx"/>
     </transform>
   </transforms>
 

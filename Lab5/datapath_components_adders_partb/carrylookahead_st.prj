@@ -1,0 +1,4 @@
+verilog work "register_logic.v"
+verilog work "falogic.v"
+verilog work "carrylogic.v"
+verilog work "carrylookahead_st.v"

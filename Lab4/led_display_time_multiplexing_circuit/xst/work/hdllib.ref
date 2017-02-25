@@ -1,0 +1,3 @@
+MO dispmux_main_bh NULL dispmux_main_bh.v vlg1F/dispmux__main__bh.bin 1487639693
+MO hex2SevenSeg NULL hex2SevenSeg.v vlg27/hex2_seven_seg.bin 1487639693
+MO disp_mux_bh NULL disp_mux_bh.v vlg32/disp__mux__bh.bin 1487639693

@@ -1,0 +1,10 @@
+Command line:
+   edgedetector_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  49775
+
+Wed Feb 22 15:41:25 2017
+
+
+ Elaboration Time: 0.109375 sec
