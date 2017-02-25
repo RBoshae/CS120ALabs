@@ -1,8 +1,0 @@
-xst -intstyle ise -ifn "C:/Users/KongK/Documents/GitHub/CS120ALabs/Lab2/ee120a_L2P1_sprinkler_valve_controller/sprinkler_circuit.xst" -ofn "C:/Users/KongK/Documents/GitHub/CS120ALabs/Lab2/ee120a_L2P1_sprinkler_valve_controller/sprinkler_circuit.syr" 
-xst -intstyle ise -ifn "C:/Users/KongK/Documents/GitHub/CS120ALabs/Lab2/ee120a_L2P1_sprinkler_valve_controller/sprinkler_circuit.xst" -ofn "C:/Users/KongK/Documents/GitHub/CS120ALabs/Lab2/ee120a_L2P1_sprinkler_valve_controller/sprinkler_circuit.syr" 
-xst -intstyle ise -ifn "C:/Users/KongK/Documents/GitHub/CS120ALabs/Lab2/ee120a_L2P1_sprinkler_valve_controller/sprinkler_circuit.xst" -ofn "C:/Users/KongK/Documents/GitHub/CS120ALabs/Lab2/ee120a_L2P1_sprinkler_valve_controller/sprinkler_circuit.syr" 
-xst -intstyle ise -ifn "C:/Users/KongK/Documents/GitHub/CS120ALabs/Lab2/ee120a_L2P1_sprinkler_valve_controller/sprinkler_circuit.xst" -ofn "C:/Users/KongK/Documents/GitHub/CS120ALabs/Lab2/ee120a_L2P1_sprinkler_valve_controller/sprinkler_circuit.syr" 
-ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-cp132-5 sprinkler_circuit.ngc sprinkler_circuit.ngd  
-map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o sprinkler_circuit_map.ncd sprinkler_circuit.ngd sprinkler_circuit.pcf 
-par -w -intstyle ise -ol high -t 1 sprinkler_circuit_map.ncd sprinkler_circuit.ncd sprinkler_circuit.pcf 
-trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml sprinkler_circuit.twx sprinkler_circuit.ncd -o sprinkler_circuit.twr sprinkler_circuit.pcf 

@@ -1,3 +1,0 @@
-verilog work "hex2SevenSeg.v"
-verilog work "disp_mux_bh.v"
-verilog work "dispmux_main_bh.v"

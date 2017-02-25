@@ -1,1 +1,0 @@
-xst -intstyle ise -ifn "C:/Users/KongK/Documents/GitHub/CS120ALabs/Lab3/ee120a_L3P3_BCD_to_7seg/BCD_to_7seg.xst" -ofn "C:/Users/KongK/Documents/GitHub/CS120ALabs/Lab3/ee120a_L3P3_BCD_to_7seg/BCD_to_7seg.syr" 

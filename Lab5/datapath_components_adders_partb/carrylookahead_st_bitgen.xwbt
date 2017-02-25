@@ -1,8 +1,0 @@
-INTSTYLE=ise
-INFILE=C:\Users\KongK\Documents\GitHub\CS120ALabs\Lab5\datapath_components_adders_partb\carrylookahead_st.ncd
-OUTFILE=C:\Users\KongK\Documents\GitHub\CS120ALabs\Lab5\datapath_components_adders_partb\carrylookahead_st.bit
-FAMILY=Spartan3E
-PART=xc3s100e-5cp132
-WORKINGDIR=C:\Users\KongK\Documents\GitHub\CS120ALabs\Lab5\datapath_components_adders_partb
-LICENSE=WebPack
-USER_INFO=211296468_0_0_870

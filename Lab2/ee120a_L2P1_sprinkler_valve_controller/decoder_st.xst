@@ -1,5 +1,0 @@
-set -tmpdir "C:/Users/KongK/Documents/GitHub/CS120ALabs/Lab2/ee120a_L2P1_sprinkler_valve_controller/xst/projnav.tmp"
-set -xsthdpdir "C:/Users/KongK/Documents/GitHub/CS120ALabs/Lab2/ee120a_L2P1_sprinkler_valve_controller/xst"
-elaborate
--ifn decoder_st.prj
--ifmt mixed

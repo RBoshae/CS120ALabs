@@ -1,4 +1,0 @@
-vhdtdtfi -lib work C:/Users/KongK/Documents/GitHub/CS120ALabs/Lab2/ee120a_L2P1_sprinkler_valve_controller/decoder_st.v -lang verilog -prj ee120a_L2P1_sprinkler_valve_controller -o decoder_st.spl -module decoder_st -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
-spl2sym -intstyle ise -family spartan3e decoder_st.spl C:/Users/KongK/Documents/GitHub/CS120ALabs/Lab2/ee120a_L2P1_sprinkler_valve_controller/decoder_st.sym 
-vhdtdtfi -lib work C:/Users/KongK/Documents/GitHub/CS120ALabs/Lab2/ee120a_L2P1_sprinkler_valve_controller/decoder_st.v -lang verilog -prj ee120a_L2P1_sprinkler_valve_controller -o decoder_st.spl -module decoder_st -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
-spl2sym -intstyle ise -family spartan3e decoder_st.spl C:/Users/KongK/Documents/GitHub/CS120ALabs/Lab2/ee120a_L2P1_sprinkler_valve_controller/decoder_st.sym 
