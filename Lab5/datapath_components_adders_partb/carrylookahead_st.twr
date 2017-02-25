@@ -45,13 +45,13 @@ Setup/Hold to clock clk
             |Max Setup to|Max Hold to |                  | Clock  |
 Source      | clk (edge) | clk (edge) |Internal Clock(s) | Phase  |
 ------------+------------+------------+------------------+--------+
-cin         |    5.212(R)|   -0.180(R)|clk_BUFGP         |   0.000|
-x<0>        |    5.960(R)|   -0.891(R)|clk_BUFGP         |   0.000|
-x<1>        |    4.343(R)|   -0.953(R)|clk_BUFGP         |   0.000|
+cin         |    5.287(R)|   -0.033(R)|clk_BUFGP         |   0.000|
+x<0>        |    6.055(R)|   -0.706(R)|clk_BUFGP         |   0.000|
+x<1>        |    4.327(R)|   -0.940(R)|clk_BUFGP         |   0.000|
 x<2>        |    3.502(R)|   -0.197(R)|clk_BUFGP         |   0.000|
 x<3>        |    3.340(R)|   -1.028(R)|clk_BUFGP         |   0.000|
-y<0>        |    5.657(R)|   -0.789(R)|clk_BUFGP         |   0.000|
-y<1>        |    5.029(R)|   -1.193(R)|clk_BUFGP         |   0.000|
+y<0>        |    6.713(R)|   -0.707(R)|clk_BUFGP         |   0.000|
+y<1>        |    6.563(R)|   -1.352(R)|clk_BUFGP         |   0.000|
 y<2>        |    3.541(R)|   -0.628(R)|clk_BUFGP         |   0.000|
 y<3>        |    3.276(R)|   -0.611(R)|clk_BUFGP         |   0.000|
 ------------+------------+------------+------------------+--------+
@@ -69,14 +69,14 @@ r<3>        |    5.775(R)|clk_BUFGP         |   0.000|
 ------------+------------+------------------+--------+
 
 
-Analysis completed Sun Feb 19 12:52:14 2017 
+Analysis completed Fri Feb 24 16:57:21 2017 
 --------------------------------------------------------------------------------
 
 Trace Settings:
 -------------------------
 Trace Settings 
 
-Peak Memory Usage: 159 MB
+Peak Memory Usage: 160 MB
 
 
 

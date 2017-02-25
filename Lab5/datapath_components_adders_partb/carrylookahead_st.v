@@ -31,7 +31,7 @@ module carrylookahead_st(
 	wire[3:0] c;
 	wire[3:0] ir1;
 	wire[4:0]ir2;
-	
+
 	// Compute Carries
 	carrylogic cx1(c, cin, x, y);
 	
@@ -47,5 +47,5 @@ module carrylookahead_st(
 	// Results
 	assign r = ir2[3:0];
 	assign cout = ir2[4];
-	
+
 endmodule
