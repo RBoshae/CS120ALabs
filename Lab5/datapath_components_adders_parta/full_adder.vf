@@ -7,11 +7,11 @@
 // \   \   \/     Version : 14.7
 //  \   \         Application : sch2hdl
 //  /   /         Filename : full_adder.vf
-// /___/   /\     Timestamp : 02/19/2017 11:02:50
+// /___/   /\     Timestamp : 02/24/2017 17:01:06
 // \   \  /  \ 
 //  \___\/\___\ 
 //
-//Command: sch2hdl -intstyle ise -family spartan3e -verilog C:/Users/KongK/Documents/GitHub/CS120ALabs/Lab5/datapath_components_adders_parta/full_adder.vf -w C:/Users/KongK/Documents/GitHub/CS120ALabs/Lab5/datapath_components_adders_parta/full_adder.sch
+//Command: sch2hdl -intstyle ise -family spartan3e -verilog C:/Users/rwbos/Documents/GitHub/CS120ALabs/Lab5/datapath_components_adders_parta/full_adder.vf -w C:/Users/rwbos/Documents/GitHub/CS120ALabs/Lab5/datapath_components_adders_parta/full_adder.sch
 //Design Name: full_adder
 //Device: spartan3e
 //Purpose:

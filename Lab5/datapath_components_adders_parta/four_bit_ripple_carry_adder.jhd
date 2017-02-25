@@ -7,3 +7,5 @@ MODULE four_bit_ripple_carry_adder
 		INSTANCE XLXI_3
 	SUBMODULE full_adder
 		INSTANCE XLXI_4
+	SUBMODULE five_bit_register
+		INSTANCE XLXI_5

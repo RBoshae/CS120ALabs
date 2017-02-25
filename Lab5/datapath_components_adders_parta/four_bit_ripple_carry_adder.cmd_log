@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "C:/Users/rwbos/Documents/GitHub/CS120ALabs/Lab5/datapath_components_adders_parta/four_bit_ripple_carry_adder.xst" -ofn "C:/Users/rwbos/Documents/GitHub/CS120ALabs/Lab5/datapath_components_adders_parta/four_bit_ripple_carry_adder.syr" 
