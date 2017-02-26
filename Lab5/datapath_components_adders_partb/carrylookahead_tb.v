@@ -49,10 +49,9 @@ module carrylookahead_tb;
 	initial begin
 		clk = 0;
 		forever begin
-		#20 clk = ~clk;
+		#25 clk = ~clk;
 		end
 	end
-	
 	
 	initial begin
 		// Initialize Inputs
@@ -61,62 +60,55 @@ module carrylookahead_tb;
 		cin = 0;
 		x = 0;
 		y = 0;
-
-		// Wait 100 ns for global reset to finish
 		#100;
 		enable = 1;
-		// Add stimulus here
+		// Lower end
 		x = 4'b0000;
 		y = 4'b0000;
-		cin = 0;
-		#50
-		
-		x = 4'b0000;
-		y = 4'b0000;
-		cin = 1;
-		#50
-		
-		x = 4'b0000;
-		y = 4'b0001;
-		cin = 0;
-		#50
-		
-		x = 4'b0000;
-		y = 4'b0001;
 		cin = 1;
 		#50
 		
 		x = 4'b0001;
+		y = 4'b0001;
+		cin = 0;
+		#50
+		
+		x = 4'b0001;
+		y = 4'b0001;
+		cin = 1;
+		#50
+		
+		x = 4'b0010;
 		y = 4'b0010;
 		cin = 0;
 		#50
 		
-		x = 4'b0010;
-		y = 4'b0001;
+		// Test Upper End
+		x = 4'b0100;
+		y = 4'b1010;
+		cin = 0;
+		#50
+
+		x = 4'b1001;
+		y = 4'b0010;
 		cin = 1;
 		#50
 		
-		x = 4'b0100;
-		y = 4'b0001;
+		// Test carry out
+		x = 4'b1011;
+		y = 4'b0101;
 		cin = 0;
 		#50
 		
-		x = 4'b0100;
-		y = 4'b0001;
+		x = 4'b1111;
+		y = 4'b1111;
 		cin = 1;
 		#50
 		
-		x = 4'b0100;
-		y = 4'b0011;
+		x = 4'b0000;
+		y = 4'b0000;
 		cin = 0;
-		#50
-		
-		x = 4'b0011;
-		y = 4'b0100;
-		cin = 1;
-		//#100
-		
-	end
-      
+		enable = 0;
+	end      
 endmodule
 

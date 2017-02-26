@@ -18,7 +18,8 @@ Compiling module carrylookahead_st
 Compiling module carrylookahead_tb
 Compiling module glbl
 Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
 Compiled 6 Verilog Units
 Built simulation executable C:/Users/KongK/Documents/GitHub/CS120ALabs/Lab5/datapath_components_adders_partb/carrylookahead_tb_isim_beh.exe
-Fuse Memory Usage: 28008 KB
-Fuse CPU Usage: 374 ms
+Fuse Memory Usage: 28168 KB
+Fuse CPU Usage: 296 ms
