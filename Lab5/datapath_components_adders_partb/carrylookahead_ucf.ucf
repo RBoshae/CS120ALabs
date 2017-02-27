@@ -1,6 +1,7 @@
 // Inputs
 NET "clk" LOC="B8";
 NET "enable" LOC="G12"; // Enable is set to right button
+NET "cin" LOC="A7"; // Carry in bit
 
 // Xs and Ys
 NET "x[0]" LOC="P11";

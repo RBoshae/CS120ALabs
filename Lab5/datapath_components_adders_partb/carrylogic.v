@@ -46,5 +46,4 @@ module carrylogic(
 	assign cout[1] = g1 | (p1 & (g0 | (p0 & cin)));
 	assign cout[2] = g2 | (p2 & (g1 | (p1 & (g0 | (p0 & cin)))));
 	assign cout[3] = g3 | (p3 & (g2 | (p2 & (g1 | (p1 & (g0 | (p0 & cin)))))));
-	
 endmodule 

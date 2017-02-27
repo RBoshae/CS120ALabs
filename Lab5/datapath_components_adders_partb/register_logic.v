@@ -30,5 +30,4 @@ module register_logic(
 			Q = Data;
 		end
 	end
-
 endmodule

@@ -47,5 +47,4 @@ module carrylookahead_st(
 	// Results
 	assign r = ir2[3:0];
 	assign cout = ir2[4];
-
 endmodule
