@@ -42,7 +42,7 @@ module carrylookahead_st(
 	falogic cx9(ir1[3], x[3], y[3], c[2]);
 	
 	// Register
-	register_logic cx10(clk, 1'b1, {c[3], ir1}, ir2);
+	register_logic cx10(clk, enable, {c[3], ir1}, ir2);
 	
 	// Results
 	assign r = ir2[3:0];
