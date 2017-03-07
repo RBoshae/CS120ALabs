@@ -20,9 +20,14 @@
 //////////////////////////////////////////////////////////////////////////////////
 module bit_shift(
 	input [2:0] a,
-	output [4:0] a_shiftr
+	output [3:0] a_shiftr
     );
 // Shift a one bit to the right
-
+	assign a_shiftr[0] = a[1];
+	assign a_shiftr[1] = a[2];
+	assign a_shiftr[2] = 0;
+	assign a_shiftr[3] = 0;
+	
+	
 
 endmodule

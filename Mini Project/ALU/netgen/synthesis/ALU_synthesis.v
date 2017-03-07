@@ -7,14 +7,14 @@
 // \   \   \/     Version: P.20131013
 //  \   \         Application: netgen
 //  /   /         Filename: ALU_synthesis.v
-// /___/   /\     Timestamp: Mon Mar 06 16:27:18 2017
+// /___/   /\     Timestamp: Mon Mar 06 17:02:49 2017
 // \   \  /  \ 
 //  \___\/\___\
 //             
 // Command	: -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim ALU.ngc ALU_synthesis.v 
 // Device	: xc3s100e-5-cp132
 // Input file	: ALU.ngc
-// Output file	: C:\Users\KongK\Documents\GitHub\CS120ALabs\Mini Project\ALU\netgen\synthesis\ALU_synthesis.v
+// Output file	: C:\Users\rwbos\Documents\GitHub\CS120ALabs\Mini Project\ALU\netgen\synthesis\ALU_synthesis.v
 // # of Modules	: 1
 // Design Name	: ALU
 // Xilinx        : C:\Xilinx\14.7\ISE_DS\ISE\
@@ -40,199 +40,155 @@ q, a, b, swSelect
   input [2 : 0] a;
   input [2 : 0] b;
   input [1 : 0] swSelect;
-  wire Mmux_out1_3_0;
-  wire Mmux_out1_31_1;
-  wire Mmux_out1_32_2;
-  wire Mmux_out1_33_3;
-  wire Mmux_out1_4_4;
-  wire Mmux_out1_41_5;
-  wire Mmux_out1_42_6;
-  wire Mmux_out1_43_7;
+  wire Mmux_out12;
+  wire Mmux_out121_1;
+  wire Mmux_out14;
+  wire Mmux_out141_3;
   wire N0;
   wire N1;
-  wire a_0_IBUF_13;
-  wire a_1_IBUF_14;
-  wire a_2_IBUF_15;
-  wire b_0_IBUF_19;
-  wire b_1_IBUF_20;
-  wire b_2_IBUF_21;
-  wire q_0_OBUF_42;
-  wire q_1_OBUF_43;
-  wire q_2_OBUF_44;
-  wire q_3_OBUF_45;
-  wire swSelect_0_IBUF_48;
-  wire swSelect_1_IBUF_49;
-  wire \NLW_bit1_a_shiftr<4>_UNCONNECTED ;
+  wire a_0_IBUF_9;
+  wire a_1_IBUF_10;
+  wire a_2_IBUF_11;
+  wire b_0_IBUF_15;
+  wire b_1_IBUF_16;
+  wire b_2_IBUF_17;
+  wire q_0_OBUF_30;
+  wire q_1_OBUF_31;
+  wire q_2_OBUF_32;
+  wire q_3_OBUF_33;
+  wire swSelect_0_IBUF_36;
+  wire swSelect_1_IBUF_37;
   wire [3 : 0] in0;
   wire [3 : 0] in1;
-  wire [3 : 0] in2;
-  wire [3 : 0] in3;
   GND   XST_GND (
     .G(N0)
   );
   VCC   XST_VCC (
     .P(N1)
   );
-  MUXF5   Mmux_out1_2_f5_2 (
-    .I0(Mmux_out1_43_7),
-    .I1(Mmux_out1_33_3),
-    .S(swSelect_1_IBUF_49),
-    .O(q_3_OBUF_45)
-  );
-  LUT3 #(
-    .INIT ( 8'hE4 ))
-  Mmux_out1_43 (
-    .I0(swSelect_0_IBUF_48),
-    .I1(in0[3]),
-    .I2(in1[3]),
-    .O(Mmux_out1_43_7)
-  );
-  LUT3 #(
-    .INIT ( 8'hE4 ))
-  Mmux_out1_33 (
-    .I0(swSelect_0_IBUF_48),
-    .I1(in2[3]),
-    .I2(in3[3]),
-    .O(Mmux_out1_33_3)
-  );
-  MUXF5   Mmux_out1_2_f5_1 (
-    .I0(Mmux_out1_42_6),
-    .I1(Mmux_out1_32_2),
-    .S(swSelect_1_IBUF_49),
-    .O(q_2_OBUF_44)
-  );
-  LUT3 #(
-    .INIT ( 8'hE4 ))
-  Mmux_out1_42 (
-    .I0(swSelect_0_IBUF_48),
-    .I1(in0[2]),
-    .I2(in1[2]),
-    .O(Mmux_out1_42_6)
-  );
-  LUT3 #(
-    .INIT ( 8'hE4 ))
-  Mmux_out1_32 (
-    .I0(swSelect_0_IBUF_48),
-    .I1(in2[2]),
-    .I2(in3[2]),
-    .O(Mmux_out1_32_2)
-  );
-  MUXF5   Mmux_out1_2_f5_0 (
-    .I0(Mmux_out1_41_5),
-    .I1(Mmux_out1_31_1),
-    .S(swSelect_1_IBUF_49),
-    .O(q_1_OBUF_43)
-  );
-  LUT3 #(
-    .INIT ( 8'hE4 ))
-  Mmux_out1_41 (
-    .I0(swSelect_0_IBUF_48),
-    .I1(in0[1]),
-    .I2(in1[1]),
-    .O(Mmux_out1_41_5)
-  );
-  LUT3 #(
-    .INIT ( 8'hE4 ))
-  Mmux_out1_31 (
-    .I0(swSelect_0_IBUF_48),
-    .I1(in2[1]),
-    .I2(in3[1]),
-    .O(Mmux_out1_31_1)
-  );
-  MUXF5   Mmux_out1_2_f5 (
-    .I0(Mmux_out1_4_4),
-    .I1(Mmux_out1_3_0),
-    .S(swSelect_1_IBUF_49),
-    .O(q_0_OBUF_42)
-  );
-  LUT3 #(
-    .INIT ( 8'hE4 ))
-  Mmux_out1_4 (
-    .I0(swSelect_0_IBUF_48),
-    .I1(in0[0]),
-    .I2(in1[0]),
-    .O(Mmux_out1_4_4)
-  );
-  LUT3 #(
-    .INIT ( 8'hE4 ))
-  Mmux_out1_3 (
-    .I0(swSelect_0_IBUF_48),
-    .I1(in2[0]),
-    .I2(in3[0]),
-    .O(Mmux_out1_3_0)
-  );
   adder   add1 (
     .cin(N0),
     .r({in0[3], in0[2], in0[1], in0[0]}),
-    .x({a_2_IBUF_15, a_1_IBUF_14, a_0_IBUF_13}),
-    .y({b_2_IBUF_21, b_1_IBUF_20, b_0_IBUF_19})
+    .x({a_2_IBUF_11, a_1_IBUF_10, a_0_IBUF_9}),
+    .y({b_2_IBUF_17, b_1_IBUF_16, b_0_IBUF_15})
   );
   twos_complement   two1 (
     .b_prime({in1[3], in1[2], in1[1], in1[0]}),
-    .b({b_2_IBUF_21, b_1_IBUF_20, b_0_IBUF_19})
+    .b({b_2_IBUF_17, b_1_IBUF_16, b_0_IBUF_15})
   );
   adder   add2 (
     .cin(N1),
     .r({in1[3], in1[2], in1[1], in1[0]}),
-    .x({a_2_IBUF_15, a_1_IBUF_14, a_0_IBUF_13}),
+    .x({a_2_IBUF_11, a_1_IBUF_10, a_0_IBUF_9}),
     .y({in1[2], in1[1], in1[0]})
   );
-  bit_shift   bit1 (
-    .a_shiftr({\NLW_bit1_a_shiftr<4>_UNCONNECTED , in2[3], in2[2], in2[1], in2[0]}),
-    .a({a_2_IBUF_15, a_1_IBUF_14, a_0_IBUF_13})
+  LUT4 #(
+    .INIT ( 16'h0E04 ))
+  Mmux_out181 (
+    .I0(swSelect_0_IBUF_36),
+    .I1(in0[3]),
+    .I2(swSelect_1_IBUF_37),
+    .I3(in1[3]),
+    .O(q_3_OBUF_33)
   );
-  bitwise_equality   eq1 (
-    .equal({in3[3], in3[2], in3[1], in3[0]}),
-    .a({a_2_IBUF_15, a_1_IBUF_14, a_0_IBUF_13}),
-    .b({b_2_IBUF_21, b_1_IBUF_20, b_0_IBUF_19})
+  LUT4 #(
+    .INIT ( 16'h0E04 ))
+  Mmux_out161 (
+    .I0(swSelect_0_IBUF_36),
+    .I1(in0[2]),
+    .I2(swSelect_1_IBUF_37),
+    .I3(in1[2]),
+    .O(q_2_OBUF_32)
   );
   IBUF   a_2_IBUF (
     .I(a[2]),
-    .O(a_2_IBUF_15)
+    .O(a_2_IBUF_11)
   );
   IBUF   a_1_IBUF (
     .I(a[1]),
-    .O(a_1_IBUF_14)
+    .O(a_1_IBUF_10)
   );
   IBUF   a_0_IBUF (
     .I(a[0]),
-    .O(a_0_IBUF_13)
+    .O(a_0_IBUF_9)
   );
   IBUF   b_2_IBUF (
     .I(b[2]),
-    .O(b_2_IBUF_21)
+    .O(b_2_IBUF_17)
   );
   IBUF   b_1_IBUF (
     .I(b[1]),
-    .O(b_1_IBUF_20)
+    .O(b_1_IBUF_16)
   );
   IBUF   b_0_IBUF (
     .I(b[0]),
-    .O(b_0_IBUF_19)
+    .O(b_0_IBUF_15)
   );
   IBUF   swSelect_1_IBUF (
     .I(swSelect[1]),
-    .O(swSelect_1_IBUF_49)
+    .O(swSelect_1_IBUF_37)
   );
   IBUF   swSelect_0_IBUF (
     .I(swSelect[0]),
-    .O(swSelect_0_IBUF_48)
+    .O(swSelect_0_IBUF_36)
   );
   OBUF   q_3_OBUF (
-    .I(q_3_OBUF_45),
+    .I(q_3_OBUF_33),
     .O(q[3])
   );
   OBUF   q_2_OBUF (
-    .I(q_2_OBUF_44),
+    .I(q_2_OBUF_32),
     .O(q[2])
   );
   OBUF   q_1_OBUF (
-    .I(q_1_OBUF_43),
+    .I(q_1_OBUF_31),
     .O(q[1])
   );
   OBUF   q_0_OBUF (
-    .I(q_0_OBUF_42),
+    .I(q_0_OBUF_30),
     .O(q[0])
+  );
+  LUT2 #(
+    .INIT ( 4'h2 ))
+  Mmux_out141 (
+    .I0(a_2_IBUF_11),
+    .I1(swSelect_0_IBUF_36),
+    .O(Mmux_out14)
+  );
+  LUT3 #(
+    .INIT ( 8'hD8 ))
+  Mmux_out142 (
+    .I0(swSelect_0_IBUF_36),
+    .I1(in1[1]),
+    .I2(in0[1]),
+    .O(Mmux_out141_3)
+  );
+  MUXF5   Mmux_out14_f5 (
+    .I0(Mmux_out141_3),
+    .I1(Mmux_out14),
+    .S(swSelect_1_IBUF_37),
+    .O(q_1_OBUF_31)
+  );
+  LUT2 #(
+    .INIT ( 4'h2 ))
+  Mmux_out121 (
+    .I0(a_1_IBUF_10),
+    .I1(swSelect_0_IBUF_36),
+    .O(Mmux_out12)
+  );
+  LUT3 #(
+    .INIT ( 8'hD8 ))
+  Mmux_out122 (
+    .I0(swSelect_0_IBUF_36),
+    .I1(in1[0]),
+    .I2(in0[0]),
+    .O(Mmux_out121_1)
+  );
+  MUXF5   Mmux_out12_f5 (
+    .I0(Mmux_out121_1),
+    .I1(Mmux_out12),
+    .S(swSelect_1_IBUF_37),
+    .O(q_0_OBUF_30)
   );
 endmodule
 
