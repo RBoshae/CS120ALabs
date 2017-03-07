@@ -22,8 +22,7 @@ module twos_complement(
 	input [2:0] b,
 	output [3:0] b_prime
     );
-
-	// Invert the bits
-	//b_prime = b;
-	//b_prime = ~b_prime;
+	
+	assign b_prime = ~b;
+	
 endmodule

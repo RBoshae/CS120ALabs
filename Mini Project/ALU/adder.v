@@ -25,5 +25,19 @@ module adder(
 	output [3:0] r
     );
 
-// Add x, y, cin, and save to r
+	wire [2:0] c;
+	wire [2:0] ir1;
+	
+	// Add x, y, cin, and save to r
+	// Compute Carries
+	carry_logic cx1(c, cin, x, y);
+	
+	// Compute R
+	falogic cx6(ir1[0], x[0], y[0], cin);
+	falogic cx7(ir1[1], x[1], y[1], c[0]);
+	falogic cx8(ir1[2], x[2], y[2], c[1]);
+	
+	// Results
+	assign r = {c[2], ir1};
+	
 endmodule
