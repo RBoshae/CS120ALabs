@@ -26,10 +26,10 @@ module ALU(
 	output [3:0] q // output
     );
 
-	reg [3:0] in0; // Adder output
-	reg [3:0] in1; // 2's comp output
+	wire [3:0] in0; // Adder output
+	wire [3:0] in1; // 2's comp output
 	//reg [3:0] in1_sum;
-	wire [3:0] in2; // Shifter output
+	wire[3:0] in2; // Shifter output
 	wire [3:0] in3; // Equality output
 	reg [3:0] out1; // output
 	
