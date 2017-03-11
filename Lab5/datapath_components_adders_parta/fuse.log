@@ -1,22 +1,24 @@
-Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -o C:/Users/KongK/Documents/GitHub/CS120ALabs/Lab5/datapath_components_adders_parta/full_adder_full_adder_sch_tb_isim_beh.exe -prj C:/Users/KongK/Documents/GitHub/CS120ALabs/Lab5/datapath_components_adders_parta/full_adder_full_adder_sch_tb_beh.prj work.full_adder_full_adder_sch_tb work.glbl 
+Running: D:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -o C:/Users/Rick Boshae/Documents/GitHub/CS120ALabs/Lab5/datapath_components_adders_parta/four_bit_ripple_carry_adder_four_bit_ripple_carry_adder_sch_tb_isim_beh.exe -prj C:/Users/Rick Boshae/Documents/GitHub/CS120ALabs/Lab5/datapath_components_adders_parta/four_bit_ripple_carry_adder_four_bit_ripple_carry_adder_sch_tb_beh.prj work.four_bit_ripple_carry_adder_four_bit_ripple_carry_adder_sch_tb work.glbl 
 ISim P.20131013 (signature 0x7708f090)
 Number of CPUs detected in this system: 8
 Turning on mult-threading, number of parallel sub-compilation jobs: 16 
 Determining compilation order of HDL files
-Analyzing Verilog file "C:/Users/KongK/Documents/GitHub/CS120ALabs/Lab5/datapath_components_adders_parta/full_adder.vf" into library work
-Analyzing Verilog file "C:/Users/KongK/Documents/GitHub/CS120ALabs/Lab5/datapath_components_adders_parta/full_adder_tb.v" into library work
-Analyzing Verilog file "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Analyzing Verilog file "C:/Users/Rick Boshae/Documents/GitHub/CS120ALabs/Lab5/datapath_components_adders_parta/full_adder.vf" into library work
+Analyzing Verilog file "C:/Users/Rick Boshae/Documents/GitHub/CS120ALabs/Lab5/datapath_components_adders_parta/five_bit_register.vf" into library work
+Analyzing Verilog file "C:/Users/Rick Boshae/Documents/GitHub/CS120ALabs/Lab5/datapath_components_adders_parta/four_bit_ripple_carry_adder.vf" into library work
+Analyzing Verilog file "C:/Users/Rick Boshae/Documents/GitHub/CS120ALabs/Lab5/datapath_components_adders_parta/four_bit_ripple_carry_adder_tb.v" into library work
+Analyzing Verilog file "D:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
 Starting static elaboration
 Completed static elaboration
 Compiling module AND2
 Compiling module OR2
 Compiling module XOR3
-Compiling module full_adder
-Compiling module full_adder_full_adder_sch_tb
+Compiling module full_adder_MUSER_four_bit_ripple...
+Compiling module FD
+Compiling module five_bit_register_MUSER_four_bit...
+Compiling module four_bit_ripple_carry_adder
+Compiling module four_bit_ripple_carry_adder_four...
 Compiling module glbl
 Time Resolution for simulation is 1ps.
 Waiting for 1 sub-compilation(s) to finish...
-Compiled 6 Verilog Units
-Built simulation executable C:/Users/KongK/Documents/GitHub/CS120ALabs/Lab5/datapath_components_adders_parta/full_adder_full_adder_sch_tb_isim_beh.exe
-Fuse Memory Usage: 28512 KB
-Fuse CPU Usage: 343 ms
+FATAL_ERROR:Simulator:Fuse.cpp:209:1.133 - Failed to compile one of the generated C files. Please recompile with -mt off -v 1 switch to identify which design unit failed.  For technical support on this issue, please visit http://www.xilinx.com/support.

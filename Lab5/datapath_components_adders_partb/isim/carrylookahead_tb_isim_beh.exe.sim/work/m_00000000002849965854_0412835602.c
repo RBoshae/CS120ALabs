@@ -21,7 +21,7 @@
 #include <malloc.h>
 #define alloca _alloca
 #endif
-static const char *ng0 = "C:/Users/KongK/Documents/GitHub/CS120ALabs/Lab5/datapath_components_adders_partb/register_logic.v";
+static const char *ng0 = "C:/Users/Rick Boshae/Documents/GitHub/CS120ALabs/Lab5/datapath_components_adders_partb/register_logic.v";
 
 
 

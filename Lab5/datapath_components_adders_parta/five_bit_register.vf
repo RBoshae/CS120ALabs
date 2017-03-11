@@ -7,11 +7,11 @@
 // \   \   \/     Version : 14.7
 //  \   \         Application : sch2hdl
 //  /   /         Filename : five_bit_register.vf
-// /___/   /\     Timestamp : 02/24/2017 17:01:06
+// /___/   /\     Timestamp : 03/11/2017 11:37:23
 // \   \  /  \ 
 //  \___\/\___\ 
 //
-//Command: sch2hdl -intstyle ise -family spartan3e -verilog C:/Users/rwbos/Documents/GitHub/CS120ALabs/Lab5/datapath_components_adders_parta/five_bit_register.vf -w C:/Users/rwbos/Documents/GitHub/CS120ALabs/Lab5/datapath_components_adders_parta/five_bit_register.sch
+//Command: sch2hdl -intstyle ise -family spartan3e -verilog "C:/Users/Rick Boshae/Documents/GitHub/CS120ALabs/Lab5/datapath_components_adders_parta/five_bit_register.vf" -w "C:/Users/Rick Boshae/Documents/GitHub/CS120ALabs/Lab5/datapath_components_adders_parta/five_bit_register.sch"
 //Design Name: five_bit_register
 //Device: spartan3e
 //Purpose:

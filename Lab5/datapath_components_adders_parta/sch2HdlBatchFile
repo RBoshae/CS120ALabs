@@ -1,3 +1,0 @@
-sch2hdl,-intstyle,ise,-family,spartan3e,-verilog,C:/Users/rwbos/Documents/GitHub/CS120ALabs/Lab5/datapath_components_adders_parta/four_bit_ripple_carry_adder.vf,-w,C:/Users/rwbos/Documents/GitHub/CS120ALabs/Lab5/datapath_components_adders_parta/four_bit_ripple_carry_adder.sch
-sch2hdl,-intstyle,ise,-family,spartan3e,-verilog,C:/Users/rwbos/Documents/GitHub/CS120ALabs/Lab5/datapath_components_adders_parta/full_adder.vf,-w,C:/Users/rwbos/Documents/GitHub/CS120ALabs/Lab5/datapath_components_adders_parta/full_adder.sch
-sch2hdl,-intstyle,ise,-family,spartan3e,-verilog,C:/Users/rwbos/Documents/GitHub/CS120ALabs/Lab5/datapath_components_adders_parta/five_bit_register.vf,-w,C:/Users/rwbos/Documents/GitHub/CS120ALabs/Lab5/datapath_components_adders_parta/five_bit_register.sch

@@ -7,11 +7,11 @@
 // \   \   \/     Version : 14.7
 //  \   \         Application : sch2hdl
 //  /   /         Filename : four_bit_ripple_carry_adder.vf
-// /___/   /\     Timestamp : 02/24/2017 17:01:06
+// /___/   /\     Timestamp : 03/11/2017 11:37:23
 // \   \  /  \ 
 //  \___\/\___\ 
 //
-//Command: sch2hdl -intstyle ise -family spartan3e -verilog C:/Users/rwbos/Documents/GitHub/CS120ALabs/Lab5/datapath_components_adders_parta/four_bit_ripple_carry_adder.vf -w C:/Users/rwbos/Documents/GitHub/CS120ALabs/Lab5/datapath_components_adders_parta/four_bit_ripple_carry_adder.sch
+//Command: sch2hdl -intstyle ise -family spartan3e -verilog "C:/Users/Rick Boshae/Documents/GitHub/CS120ALabs/Lab5/datapath_components_adders_parta/four_bit_ripple_carry_adder.vf" -w "C:/Users/Rick Boshae/Documents/GitHub/CS120ALabs/Lab5/datapath_components_adders_parta/four_bit_ripple_carry_adder.sch"
 //Design Name: four_bit_ripple_carry_adder
 //Device: spartan3e
 //Purpose:
@@ -98,8 +98,39 @@ module full_adder_MUSER_four_bit_ripple_carry_adder(cin,
 endmodule
 `timescale 1ns / 1ps
 
-module four_bit_ripple_carry_adder();
+module four_bit_ripple_carry_adder(CLK, 
+                                   C0, 
+                                   enable, 
+                                   X0, 
+                                   X1, 
+                                   X2, 
+                                   X3, 
+                                   Y0, 
+                                   Y1, 
+                                   Y2, 
+                                   Y3, 
+                                   C4, 
+                                   Z0, 
+                                   Z1, 
+                                   Z2, 
+                                   Z3);
 
+    input CLK;
+    input C0;
+    input enable;
+    input X0;
+    input X1;
+    input X2;
+    input X3;
+    input Y0;
+    input Y1;
+    input Y2;
+    input Y3;
+   output C4;
+   output Z0;
+   output Z1;
+   output Z2;
+   output Z3;
    
    wire XLXN_1;
    wire XLXN_2;
@@ -108,36 +139,41 @@ module four_bit_ripple_carry_adder();
    wire XLXN_5;
    wire XLXN_6;
    wire XLXN_7;
+   wire XLXN_46;
+   wire XLXN_47;
    
    full_adder_MUSER_four_bit_ripple_carry_adder  XLXI_1 (.cin(XLXN_3), 
-                                                        .x(), 
-                                                        .y(), 
-                                                        .cout(), 
+                                                        .x(X3), 
+                                                        .y(Y3), 
+                                                        .cout(XLXN_46), 
                                                         .z(XLXN_7));
    full_adder_MUSER_four_bit_ripple_carry_adder  XLXI_2 (.cin(XLXN_2), 
-                                                        .x(), 
-                                                        .y(), 
+                                                        .x(X2), 
+                                                        .y(Y2), 
                                                         .cout(XLXN_3), 
                                                         .z(XLXN_6));
-   full_adder_MUSER_four_bit_ripple_carry_adder  XLXI_3 (.cin(), 
-                                                        .x(), 
-                                                        .y(), 
+   full_adder_MUSER_four_bit_ripple_carry_adder  XLXI_3 (.cin(C0), 
+                                                        .x(X0), 
+                                                        .y(Y0), 
                                                         .cout(XLXN_1), 
                                                         .z(XLXN_4));
    full_adder_MUSER_four_bit_ripple_carry_adder  XLXI_4 (.cin(XLXN_1), 
-                                                        .x(), 
-                                                        .y(), 
+                                                        .x(X1), 
+                                                        .y(Y1), 
                                                         .cout(XLXN_2), 
                                                         .z(XLXN_5));
-   five_bit_register_MUSER_four_bit_ripple_carry_adder  XLXI_5 (.clk(), 
+   five_bit_register_MUSER_four_bit_ripple_carry_adder  XLXI_5 (.clk(XLXN_47), 
                                                                .I0(XLXN_4), 
                                                                .I1(XLXN_5), 
                                                                .I2(XLXN_6), 
                                                                .I3(XLXN_7), 
-                                                               .I4(), 
-                                                               .Q0(), 
-                                                               .Q1(), 
-                                                               .Q2(), 
-                                                               .Q3(), 
-                                                               .Q4());
+                                                               .I4(XLXN_46), 
+                                                               .Q0(Z0), 
+                                                               .Q1(Z1), 
+                                                               .Q2(Z2), 
+                                                               .Q3(Z3), 
+                                                               .Q4(C4));
+   AND2  XLXI_6 (.I0(enable), 
+                .I1(CLK), 
+                .O(XLXN_47));
 endmodule
