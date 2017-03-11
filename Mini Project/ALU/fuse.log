@@ -1,0 +1,16 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -o C:/Users/KongK/Documents/GitHub/CS120ALabs/Mini Project/ALU/ALU_tb_isim_beh.exe -prj C:/Users/KongK/Documents/GitHub/CS120ALabs/Mini Project/ALU/ALU_tb_beh.prj work.ALU_tb work.glbl 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Analyzing Verilog file "C:/Users/KongK/Documents/GitHub/CS120ALabs/Mini Project/ALU/twos_complement.v" into library work
+Analyzing Verilog file "C:/Users/KongK/Documents/GitHub/CS120ALabs/Mini Project/ALU/bit_shift.v" into library work
+Analyzing Verilog file "C:/Users/KongK/Documents/GitHub/CS120ALabs/Mini Project/ALU/bitwise_equality.v" into library work
+Analyzing Verilog file "C:/Users/KongK/Documents/GitHub/CS120ALabs/Mini Project/ALU/adder.v" into library work
+Analyzing Verilog file "C:/Users/KongK/Documents/GitHub/CS120ALabs/Mini Project/ALU/ALU.v" into library work
+Analyzing Verilog file "C:/Users/KongK/Documents/GitHub/CS120ALabs/Mini Project/ALU/ALU_tb.v" into library work
+Analyzing Verilog file "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+ERROR:HDLCompiler:1654 - "C:/Users/KongK/Documents/GitHub/CS120ALabs/Mini Project/ALU/adder.v" Line 33: Instantiating <cx1> from unknown module <carry_logic>
+ERROR:HDLCompiler:1654 - "C:/Users/KongK/Documents/GitHub/CS120ALabs/Mini Project/ALU/adder.v" Line 36: Instantiating <cx6> from unknown module <falogic>
+ERROR:Simulator:778 - Static elaboration of top level Verilog design unit(s) in library work failed
