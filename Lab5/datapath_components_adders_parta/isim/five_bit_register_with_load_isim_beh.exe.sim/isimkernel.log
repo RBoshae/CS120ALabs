@@ -1,0 +1,10 @@
+Command line:
+   five_bit_register_with_load_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  52628
+
+Sat Mar 11 13:40:17 2017
+
+
+ Elaboration Time: 0.234375 sec

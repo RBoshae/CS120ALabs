@@ -1,0 +1,29 @@
+Command line:
+   four_bit_ripple_carry_adder_sch_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  54746
+
+Sat Mar 11 14:07:06 2017
+
+
+ Elaboration Time: 0.328125 sec
+
+ Current Memory Usage: 1501.13 Meg
+
+ Total Signals          : 173
+ Total Nets             : 55
+ Total Signal Drivers   : 52
+ Total Blocks           : 34
+ Total Primitive Blocks : 27
+ Total Processes        : 70
+ Total Traceable Variables  : 39
+ Total Scalar Nets and Variables : 156
+Total Line Count : 166
+
+ Total Simulation Time: 0.34375 sec
+
+ Current Memory Usage: 1029.23 Meg
+
+Sat Mar 11 14:21:29 2017
+

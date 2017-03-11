@@ -1,5 +1,5 @@
 ISim log file
-Running: C:\Users\Rick Boshae\Documents\GitHub\CS120ALabs\Lab5\datapath_components_adders_parta\full_adder_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb C:/Users/Rick Boshae/Documents/GitHub/CS120ALabs/Lab5/datapath_components_adders_parta/full_adder_isim_beh.wdb 
+Running: C:\Users\Rick Boshae\Documents\GitHub\CS120ALabs\Lab5\datapath_components_adders_parta\four_bit_ripple_carry_adder_sch_tb_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb C:/Users/Rick Boshae/Documents/GitHub/CS120ALabs/Lab5/datapath_components_adders_parta/four_bit_ripple_carry_adder_sch_tb_isim_beh.wdb 
 ISim P.20131013 (signature 0x7708f090)
 ----------------------------------------------------------------------
 INFO:Security:61 - The XILINXD_LICENSE_FILE environment variable is not set.

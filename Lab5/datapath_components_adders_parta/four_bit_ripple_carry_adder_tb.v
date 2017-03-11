@@ -2,7 +2,7 @@
 
 `timescale 1ns / 1ps
 
-module four_bit_ripple_carry_adder_four_bit_ripple_carry_adder_sch_tb();
+module four_bit_ripple_carry_adder_sch_tb();
 
 // Inputs
    reg C0;
@@ -67,7 +67,110 @@ module four_bit_ripple_carry_adder_four_bit_ripple_carry_adder_sch_tb();
 		Y3 = 0;
 		CLK = 0;
 		#100
+		enable = 1;
+		
+		//Lower end
+		C0 = 1;
+		X0 = 0;
+		Y0 = 0;
+		X1 = 0;
+		Y1 = 0;
+		X2 = 0;
+		Y2 = 0;
+		X3 = 0;
+		Y3 = 0;
+		#50
+		
+		C0 = 0;
+		X0 = 1;
+		Y0 = 1;
+		X1 = 0;
+		Y1 = 0;
+		X2 = 0;
+		Y2 = 0;
+		X3 = 0;
+		Y3 = 0;
+		#50
+		
+		C0 = 1;
+		X0 = 1;
+		Y0 = 1;
+		X1 = 0;
+		Y1 = 0;
+		X2 = 0;
+		Y2 = 0;
+		X3 = 0;
+		Y3 = 0;
+		#50
+		
+		C0 = 0;
+		X0 = 0;
+		Y0 = 0;
+		X1 = 1;
+		Y1 = 1;
+		X2 = 0;
+		Y2 = 0;
+		X3 = 0;
+		Y3 = 0;
+		#50
+		
+		// Test Upper End
+		C0 = 0;
+		X0 = 0;
+		Y0 = 0;
+		X1 = 1;
+		Y1 = 1;
+		X2 = 0;
+		Y2 = 0;
+		X3 = 0;
+		Y3 = 1;
+		#50
+		
+		C0 = 1;
+		X0 = 1;
+		Y0 = 0;
+		X1 = 0;
+		Y1 = 1;
+		X2 = 0;
+		Y2 = 0;
+		X3 = 1;
+		Y3 = 1;
+		#50
+		
+		// Test carry out
+		C0 = 0;
+		X0 = 1;
+		Y0 = 0;
+		X1 = 0;
+		Y1 = 1;
+		X2 = 1;
+		Y2 = 0;
+		X3 = 1;
+		Y3 = 1;
+		#50
+		
+		C0 = 1;
+		X0 = 1;
+		Y0 = 1;
+		X1 = 1;
+		Y1 = 1;
+		X2 = 1;
+		Y2 = 1;
+		X3 = 1;
+		Y3 = 1;
+		#50
+		
+		C0 = 0;
+		X0 = 0;
+		Y0 = 0;
+		X1 = 0;
+		Y1 = 0;
+		X2 = 0;
+		Y2 = 0;
+		X3 = 0;
+		Y3 = 0;
 		enable = 0;
+		
 	end
 
 endmodule
