@@ -23,6 +23,6 @@ module twos_complement(
 	output [3:0] b_prime
     );
 	
-	assign b_prime = ~b;
+	assign b_prime = ~b + 1;
 	
 endmodule
