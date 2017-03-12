@@ -20,9 +20,9 @@
 //////////////////////////////////////////////////////////////////////////////////
 module twos_complement(
 	input [2:0] b,
-	output [3:0] b_prime
+	output [2:0] b_prime
     );
 	
-	assign b_prime = ~b + 1;
+	assign b_prime = ~b;
 	
-endmodule
+endmodule 
