@@ -21,11 +21,11 @@
 #include <malloc.h>
 #define alloca _alloca
 #endif
-static const char *ng0 = "C:/Users/KongK/Documents/SchoolWork/CS 120A/Lab/MiniProject/twos_complement.v";
+static const char *ng0 = "C:/Users/KongK/Documents/GitHub/CS120ALabs/Mini Project/MiniProject/twos_complement.v";
 
 
 
-static void Cont_26_0(char *t0)
+static void Cont_27_0(char *t0)
 {
     char t3[8];
     char *t1;
@@ -62,7 +62,7 @@ LAB0:    t1 = (t0 + 2368U);
 
 LAB3:    goto *t2;
 
-LAB2:    xsi_set_current_line(26, ng0);
+LAB2:    xsi_set_current_line(27, ng0);
     t2 = (t0 + 1048U);
     t4 = *((char **)t2);
     memset(t3, 0, 8);
@@ -115,7 +115,7 @@ LAB5:    t8 = *((unsigned int *)t3);
 
 extern void work_m_00000000003420797216_3711264280_init()
 {
-	static char *pe[] = {(void *)Cont_26_0};
+	static char *pe[] = {(void *)Cont_27_0};
 	xsi_register_didat("work_m_00000000003420797216_3711264280", "isim/ALU_tb_isim_beh.exe.sim/work/m_00000000003420797216_3711264280.didat");
 	xsi_register_executes(pe);
 }

@@ -25,6 +25,9 @@ module bitwise_equality( // Test if a and b are equal
     );
 	 
 	 // Assign equal to high if a and b are equal
-	 assign equal = (a == b) ? 4'b0001 : 4'b0000;
+	 assign equal[0] = (a[0] == b[0]) ? 1'b1 : 1'b0;
+	 assign equal[1] = (a[1] == b[1]) ? 1'b1 : 1'b0;
+	 assign equal[2] = (a[2] == b[2]) ? 1'b1 : 1'b0;
+	 assign equal[3] = 1'b0;
 
 endmodule 

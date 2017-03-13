@@ -21,7 +21,7 @@
 #include <malloc.h>
 #define alloca _alloca
 #endif
-static const char *ng0 = "C:/Users/KongK/Documents/SchoolWork/CS 120A/Lab/MiniProject/bitwise_equality.v";
+static const char *ng0 = "C:/Users/KongK/Documents/GitHub/CS120ALabs/Mini Project/MiniProject/bitwise_equality.v";
 static unsigned int ng1[] = {1U, 0U};
 static unsigned int ng2[] = {0U, 0U};
 
