@@ -18,7 +18,8 @@
 // Additional Comments: 
 //
 //////////////////////////////////////////////////////////////////////////////////
-module ALU( // Main module
+module ALU(
+// Main module
 	input [1:0] swSelect, // Select input
 	input [2:0] a, // a
 	input [2:0] b, // b	
@@ -37,9 +38,12 @@ module ALU( // Main module
 	adder add1(1'b0, a, b, in0);
 	
 	// Unsigned subtraction
-	twos_complement two1(b, in1); // Invert the bits
-	adder add2(1'b1, a, in1, in1_sum); // Add one happens here
-	sign_mask sign1(in1_sum, in1_mask); // Ignore the sign (carry out)
+	// Invert the bits
+	twos_complement two1(b, in1);
+	// Add one happens here
+	adder add2(1'b1, a, in1, in1_sum);
+	// Ignore the sign (carry out)
+	sign_mask sign1(in1_sum, in1_mask);
 	
 	// Bitwise equality
 	bitwise_equality eq1(a, b, in2);
@@ -59,5 +63,4 @@ module ALU( // Main module
 	
 	// Assign the output
 	assign q = out1 [3:0];
-	
 endmodule 

@@ -18,7 +18,8 @@
 // Additional Comments: 
 //
 //////////////////////////////////////////////////////////////////////////////////
-module bit_shift( // Shift a one bit to the right
+module bit_shift(
+// Shift a one bit to the right
 	input [2:0] a,	
 	output [3:0] a_shiftr
     );
@@ -27,5 +28,4 @@ module bit_shift( // Shift a one bit to the right
 	assign a_shiftr[1] = a[2];
 	assign a_shiftr[2] = 0;
 	assign a_shiftr[3] = 0;
-
 endmodule 

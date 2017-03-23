@@ -18,12 +18,12 @@
 // Additional Comments: 
 //
 //////////////////////////////////////////////////////////////////////////////////
-module sign_mask( // Ignore carry over for unsigned subtraction
+module sign_mask(
+// Ignore carry over for unsigned subtraction
 	input [3:0] a,
 	output [3:0] a_unsigned
     );
 	
 	// Assign the output to a masked with 0111
-	assign a_unsigned = a & 4'b0111;
-	
+	assign a_unsigned = a & 4'b0111;	
 endmodule 

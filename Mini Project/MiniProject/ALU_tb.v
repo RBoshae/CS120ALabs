@@ -21,7 +21,6 @@
 // Additional Comments:
 // 
 ////////////////////////////////////////////////////////////////////////////////
-
 module ALU_tb;
 	// Inputs
 	reg [1:0] swSelect;
@@ -31,7 +30,6 @@ module ALU_tb;
 	// Outputs
 	wire [3:0] q;
 
-	// Instantiate the Unit Under Test (UUT)
 	ALU uut (
 		.swSelect(swSelect), 
 		.a(a), 
@@ -47,12 +45,13 @@ module ALU_tb;
 		#100;
  
 		// Test unsigned addition (00)
-		swSelect = 2'b00; // No overflow
+		// No overflow
+		swSelect = 2'b00;
 		a = 3'b011;
 		b = 3'b001;
 		#50;
-		
-		swSelect = 2'b00; // Overflow
+		// Overflow
+		swSelect = 2'b00; 
 		a = 3'b100;
 		b = 3'b111;
 		#50;
@@ -74,14 +73,20 @@ module ALU_tb;
 		#50;
 		
 		// Test bit equality (10)
-		swSelect = 2'b10; // Bit equality
+		// Bit equality
+		swSelect = 2'b10;
 		a = 3'b000;
 		b = 3'b000;
 		#50;
-		
-		swSelect = 2'b10; // Bit inequality
+		// Partial bit equality
+		swSelect = 2'b10;
 		a = 3'b111;
 		b = 3'b110;
+		#50;
+		// No bit inequality
+		swSelect = 2'b10; 
+		a = 3'b010;
+		b = 3'b101;
 		#50;
 		
 		// Test division by 2 (11)

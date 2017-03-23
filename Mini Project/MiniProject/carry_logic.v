@@ -18,7 +18,8 @@
 // Additional Comments: 
 //
 //////////////////////////////////////////////////////////////////////////////////
-module carry_logic( // Pre-compute the carries
+module carry_logic(
+// Pre-compute the carries
 	input cin,
 	input[2:0] x,
 	input[2:0] y,
@@ -43,5 +44,4 @@ module carry_logic( // Pre-compute the carries
 	assign cout[0] = g0 | (p0 & cin);
 	assign cout[1] = g1 | (p1 & (g0 | (p0 & cin)));
 	assign cout[2] = g2 | (p2 & (g1 | (p1 & (g0 | (p0 & cin)))));
-
 endmodule 

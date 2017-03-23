@@ -18,12 +18,12 @@
 // Additional Comments: 
 //
 //////////////////////////////////////////////////////////////////////////////////
-module twos_complement( // Invert the bits of b
+module twos_complement(
+// Invert the bits of b
 	input [2:0] b,
 	output [2:0] b_prime
     );
 	
 	// Assign output to inverted b
-	assign b_prime = ~b;
-	
+	assign b_prime = ~b;	
 endmodule 

@@ -18,7 +18,8 @@
 // Additional Comments: 
 //
 //////////////////////////////////////////////////////////////////////////////////
-module bitwise_equality( // Test if a and b are equal
+module bitwise_equality(
+// Test if a and b are equal
 	input [2:0] a,
 	input [2:0] b,
 	output [3:0] equal
@@ -29,5 +30,4 @@ module bitwise_equality( // Test if a and b are equal
 	 assign equal[1] = (a[1] == b[1]) ? 1'b1 : 1'b0;
 	 assign equal[2] = (a[2] == b[2]) ? 1'b1 : 1'b0;
 	 assign equal[3] = 1'b0;
-
 endmodule 

@@ -18,7 +18,8 @@
 // Additional Comments: 
 //
 //////////////////////////////////////////////////////////////////////////////////
-module falogic( // Full adder
+module falogic(
+// Full adder
 	input x,
 	input y,
 	input cin,
@@ -27,5 +28,4 @@ module falogic( // Full adder
 
 	xor cx1(t1, x, y);
 	xor cx2(r, t1, cin);
-
 endmodule 

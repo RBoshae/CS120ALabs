@@ -18,7 +18,8 @@
 // Additional Comments: 
 //
 //////////////////////////////////////////////////////////////////////////////////
-module adder( // Add x, y, and cin and save the result to r
+module adder(
+// Add x, y, and cin and save the result to r
 	input cin,
 	input[2:0] x,
 	input[2:0] y,	
@@ -37,6 +38,5 @@ module adder( // Add x, y, and cin and save the result to r
 	falogic cx8(x[2], y[2], c[1], ir1[2]);
 	
 	// Assign result to r
-	assign r = {c[2], ir1};
-	
+	assign r = {c[2], ir1};	
 endmodule 
